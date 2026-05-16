@@ -1,0 +1,737 @@
+OpenVINO is not installed. Please install OpenVINO to use OpenVINOInferencer.
+/home/gaya6/LogSAD/dinov2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/gaya6/LogSAD/dinov2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/gaya6/LogSAD/dinov2/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+torch.Size([4, 3, 448, 448])
+running k-means on cuda..
+[running kmeans]: 0it [00:00, ?it/s][running kmeans]: 0it [00:00, ?it/s, center_shift=41.524765, iteration=1, tol=0.000100][running kmeans]: 1it [00:00,  1.61it/s, center_shift=41.524765, iteration=1, tol=0.000100][running kmeans]: 1it [00:01,  1.61it/s, center_shift=1.568341, iteration=2, tol=0.000100] [running kmeans]: 2it [00:01,  1.53it/s, center_shift=1.568341, iteration=2, tol=0.000100][running kmeans]: 2it [00:01,  1.53it/s, center_shift=0.791952, iteration=3, tol=0.000100][running kmeans]: 3it [00:01,  1.62it/s, center_shift=0.791952, iteration=3, tol=0.000100][running kmeans]: 3it [00:02,  1.62it/s, center_shift=0.244507, iteration=4, tol=0.000100][running kmeans]: 4it [00:02,  1.66it/s, center_shift=0.244507, iteration=4, tol=0.000100][running kmeans]: 4it [00:03,  1.66it/s, center_shift=0.095385, iteration=5, tol=0.000100][running kmeans]: 5it [00:03,  1.68it/s, center_shift=0.095385, iteration=5, tol=0.000100][running kmeans]: 5it [00:03,  1.68it/s, center_shift=0.050453, iteration=6, tol=0.000100][running kmeans]: 6it [00:03,  1.70it/s, center_shift=0.050453, iteration=6, tol=0.000100][running kmeans]: 6it [00:04,  1.70it/s, center_shift=0.035163, iteration=7, tol=0.000100][running kmeans]: 7it [00:04,  1.71it/s, center_shift=0.035163, iteration=7, tol=0.000100][running kmeans]: 7it [00:04,  1.71it/s, center_shift=0.031143, iteration=8, tol=0.000100][running kmeans]: 8it [00:04,  1.71it/s, center_shift=0.031143, iteration=8, tol=0.000100][running kmeans]: 8it [00:05,  1.71it/s, center_shift=0.028893, iteration=9, tol=0.000100][running kmeans]: 9it [00:05,  1.70it/s, center_shift=0.028893, iteration=9, tol=0.000100][running kmeans]: 9it [00:05,  1.70it/s, center_shift=0.023885, iteration=10, tol=0.000100][running kmeans]: 10it [00:05,  1.70it/s, center_shift=0.023885, iteration=10, tol=0.000100][running kmeans]: 10it [00:06,  1.70it/s, center_shift=0.014725, iteration=11, tol=0.000100][running kmeans]: 11it [00:06,  1.62it/s, center_shift=0.014725, iteration=11, tol=0.000100][running kmeans]: 11it [00:07,  1.62it/s, center_shift=0.010341, iteration=12, tol=0.000100][running kmeans]: 12it [00:07,  1.64it/s, center_shift=0.010341, iteration=12, tol=0.000100][running kmeans]: 12it [00:07,  1.64it/s, center_shift=0.007603, iteration=13, tol=0.000100][running kmeans]: 13it [00:07,  1.66it/s, center_shift=0.007603, iteration=13, tol=0.000100][running kmeans]: 13it [00:08,  1.66it/s, center_shift=0.004697, iteration=14, tol=0.000100][running kmeans]: 14it [00:08,  1.66it/s, center_shift=0.004697, iteration=14, tol=0.000100][running kmeans]: 14it [00:09,  1.66it/s, center_shift=0.003091, iteration=15, tol=0.000100][running kmeans]: 15it [00:09,  1.63it/s, center_shift=0.003091, iteration=15, tol=0.000100][running kmeans]: 15it [00:09,  1.63it/s, center_shift=0.002346, iteration=16, tol=0.000100][running kmeans]: 16it [00:09,  1.57it/s, center_shift=0.002346, iteration=16, tol=0.000100][running kmeans]: 16it [00:10,  1.57it/s, center_shift=0.001467, iteration=17, tol=0.000100][running kmeans]: 17it [00:10,  1.60it/s, center_shift=0.001467, iteration=17, tol=0.000100][running kmeans]: 17it [00:10,  1.60it/s, center_shift=0.001511, iteration=18, tol=0.000100][running kmeans]: 18it [00:10,  1.63it/s, center_shift=0.001511, iteration=18, tol=0.000100][running kmeans]: 18it [00:11,  1.63it/s, center_shift=0.001341, iteration=19, tol=0.000100][running kmeans]: 19it [00:11,  1.64it/s, center_shift=0.001341, iteration=19, tol=0.000100][running kmeans]: 19it [00:12,  1.64it/s, center_shift=0.000813, iteration=20, tol=0.000100][running kmeans]: 20it [00:12,  1.65it/s, center_shift=0.000813, iteration=20, tol=0.000100][running kmeans]: 20it [00:12,  1.65it/s, center_shift=0.000509, iteration=21, tol=0.000100][running kmeans]: 21it [00:12,  1.66it/s, center_shift=0.000509, iteration=21, tol=0.000100][running kmeans]: 21it [00:13,  1.66it/s, center_shift=0.000351, iteration=22, tol=0.000100][running kmeans]: 22it [00:13,  1.67it/s, center_shift=0.000351, iteration=22, tol=0.000100][running kmeans]: 22it [00:13,  1.67it/s, center_shift=0.000281, iteration=23, tol=0.000100][running kmeans]: 23it [00:13,  1.67it/s, center_shift=0.000281, iteration=23, tol=0.000100][running kmeans]: 23it [00:14,  1.67it/s, center_shift=0.000185, iteration=24, tol=0.000100][running kmeans]: 24it [00:14,  1.67it/s, center_shift=0.000185, iteration=24, tol=0.000100][running kmeans]: 24it [00:15,  1.67it/s, center_shift=0.000129, iteration=25, tol=0.000100][running kmeans]: 25it [00:15,  1.67it/s, center_shift=0.000129, iteration=25, tol=0.000100][running kmeans]: 25it [00:15,  1.67it/s, center_shift=0.000162, iteration=26, tol=0.000100][running kmeans]: 26it [00:15,  1.67it/s, center_shift=0.000162, iteration=26, tol=0.000100][running kmeans]: 26it [00:16,  1.67it/s, center_shift=0.000069, iteration=27, tol=0.000100][running kmeans]: 27it [00:16,  1.67it/s, center_shift=0.000069, iteration=27, tol=0.000100][running kmeans]: 27it [00:16,  1.66it/s, center_shift=0.000069, iteration=27, tol=0.000100]
+predicting on cuda..
+predicting on cuda..
+predicting on cuda..
+predicting on cuda..
+Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
+Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/000.png'] tensor(0.3482, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/001.png'] tensor(0.3967, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/002.png'] tensor(0.5520, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/003.png'] tensor(0.4005, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/004.png'] tensor(0.8405, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/005.png'] tensor(0.7798, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/006.png'] tensor(0.4202, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/007.png'] tensor(0.4627, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/008.png'] tensor(0.4889, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/009.png'] tensor(0.6279, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/010.png'] tensor(0.8714, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/011.png'] tensor(0.5987, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/012.png'] tensor(0.6256, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/013.png'] tensor(0.6407, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/014.png'] tensor(0.6876, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/015.png'] tensor(0.3480, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/016.png'] tensor(0.4748, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/017.png'] tensor(0.3792, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/018.png'] tensor(0.5077, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/019.png'] tensor(0.6889, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/020.png'] tensor(0.4820, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/021.png'] tensor(0.6330, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/022.png'] tensor(0.7582, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/023.png'] tensor(0.4608, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/024.png'] tensor(0.5831, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/025.png'] tensor(0.5895, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/026.png'] tensor(0.4401, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/027.png'] tensor(0.7242, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/028.png'] tensor(0.3593, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/029.png'] tensor(0.8101, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/030.png'] tensor(0.5333, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/031.png'] tensor(0.5031, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/032.png'] tensor(0.3927, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/033.png'] tensor(0.4256, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/034.png'] tensor(0.7331, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/035.png'] tensor(0.5647, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/036.png'] tensor(0.9480, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/037.png'] tensor(0.7938, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/038.png'] tensor(0.9223, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/039.png'] tensor(0.5843, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/040.png'] tensor(0.5012, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/041.png'] tensor(0.7333, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/042.png'] tensor(0.6020, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/043.png'] tensor(0.6262, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/044.png'] tensor(0.5071, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/045.png'] tensor(0.8557, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/046.png'] tensor(0.7224, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/047.png'] tensor(0.4795, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/048.png'] tensor(0.9618, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/049.png'] tensor(0.6555, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/050.png'] tensor(0.6025, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/051.png'] tensor(0.4412, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/052.png'] tensor(0.5891, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/053.png'] tensor(0.7070, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/054.png'] tensor(0.3108, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/055.png'] tensor(0.8037, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/056.png'] tensor(0.7113, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/057.png'] tensor(0.6832, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/058.png'] tensor(0.5101, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/059.png'] tensor(0.4149, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/060.png'] tensor(0.3769, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/061.png'] tensor(0.6951, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/062.png'] tensor(0.5649, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/063.png'] tensor(0.6748, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/064.png'] tensor(0.6739, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/065.png'] tensor(0.6253, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/066.png'] tensor(0.5477, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/067.png'] tensor(0.8602, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/068.png'] tensor(0.5979, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/069.png'] tensor(0.5667, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/070.png'] tensor(0.8521, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/071.png'] tensor(0.6609, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/072.png'] tensor(0.5253, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/073.png'] tensor(0.5653, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/074.png'] tensor(0.3732, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/075.png'] tensor(0.3094, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/076.png'] tensor(0.9991, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/077.png'] tensor(0.5941, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/078.png'] tensor(0.5343, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/079.png'] tensor(0.6919, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/080.png'] tensor(0.5610, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/081.png'] tensor(0.3694, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/082.png'] tensor(0.5636, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/083.png'] tensor(0.8647, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/084.png'] tensor(0.4708, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/085.png'] tensor(0.7969, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/086.png'] tensor(0.6256, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/087.png'] tensor(0.6051, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/088.png'] tensor(0.6188, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/089.png'] tensor(0.5108, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/090.png'] tensor(0.6845, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/091.png'] tensor(0.7118, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/092.png'] tensor(0.4158, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/093.png'] tensor(0.5218, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/094.png'] tensor(0.7908, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/095.png'] tensor(0.7253, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/096.png'] tensor(0.4168, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/097.png'] tensor(0.3432, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/098.png'] tensor(0.6776, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/099.png'] tensor(0.7647, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/100.png'] tensor(0.7876, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/101.png'] tensor(0.4657, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/102.png'] tensor(0.4250, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/103.png'] tensor(0.7914, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/104.png'] tensor(0.7084, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/105.png'] tensor(0.6693, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/106.png'] tensor(0.3964, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/107.png'] tensor(0.6664, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/108.png'] tensor(0.5838, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/109.png'] tensor(0.3844, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/110.png'] tensor(0.9092, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/111.png'] tensor(0.9996, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/112.png'] tensor(0.5140, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/113.png'] tensor(0.6259, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/114.png'] tensor(0.3600, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/115.png'] tensor(0.5598, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/116.png'] tensor(0.8145, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/117.png'] tensor(0.5237, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/good/118.png'] tensor(0.4562, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/000.png'] tensor(0.9961, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/001.png'] tensor(0.9994, dtype=torch.float64)
+predicting on cuda..
+number of connected component in splicing_connectors: 2, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/002.png'] tensor(1.)
+predicting on cuda..
+number of connected component in splicing_connectors: 2, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/003.png'] tensor(1.)
+predicting on cuda..
+number of connected component in splicing_connectors: 2, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/004.png'] tensor(1.)
+predicting on cuda..
+number of connected component in splicing_connectors: 2, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/005.png'] tensor(1.)
+predicting on cuda..
+number of connected component in splicing_connectors: 2, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/006.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/007.png'] tensor(0.9530, dtype=torch.float64)
+predicting on cuda..
+number of connected component in splicing_connectors: 2, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/008.png'] tensor(1.)
+predicting on cuda..
+number of connected component in splicing_connectors: 2, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/009.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/010.png'] tensor(0.9982, dtype=torch.float64)
+predicting on cuda..
+number of connected component in splicing_connectors: 2, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/011.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 1 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :5500.0, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/012.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 2 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :2996.4, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/013.png'] tensor(1.)
+predicting on cuda..
+left and right connectors are not symmetry.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/014.png'] tensor(1.)
+predicting on cuda..
+left and right connectors are not symmetry.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/015.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 0 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :7430.5, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/016.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 2 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :2977.6, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/017.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 0 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :5253.0, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/018.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 0 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :5207.0, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/019.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 0 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :7295.5, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/020.png'] tensor(1.)
+predicting on cuda..
+number of connected component in splicing_connectors: 2, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/021.png'] tensor(1.)
+predicting on cuda..
+number of connected component in splicing_connectors: 2, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/022.png'] tensor(1.)
+predicting on cuda..
+number of connected component in splicing_connectors: 2, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/023.png'] tensor(1.)
+predicting on cuda..
+number of connected component in splicing_connectors: 2, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/024.png'] tensor(1.)
+predicting on cuda..
+number of connected component in splicing_connectors: 2, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/025.png'] tensor(1.)
+predicting on cuda..
+number of connected component in splicing_connectors: 2, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/026.png'] tensor(1.)
+predicting on cuda..
+number of connected component in splicing_connectors: 2, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/027.png'] tensor(1.)
+predicting on cuda..
+number of connected component in splicing_connectors: 2, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/028.png'] tensor(1.)
+predicting on cuda..
+number of connected component in splicing_connectors: 2, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/029.png'] tensor(1.)
+predicting on cuda..
+number of connected component in splicing_connectors: 2, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/030.png'] tensor(1.)
+predicting on cuda..
+number of connected component in splicing_connectors: 2, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/031.png'] tensor(1.)
+predicting on cuda..
+number of connected component in splicing_connectors: 2, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/032.png'] tensor(1.)
+predicting on cuda..
+number of connected component in splicing_connectors: 0, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/033.png'] tensor(1.)
+predicting on cuda..
+number of connected component in splicing_connectors: 0, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/034.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 2 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :2148.8, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/035.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 0 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :2031.5, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/036.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 0 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :2103.0, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/037.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 1 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :2133.0, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/038.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 2 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :2163.0, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/039.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 2 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :2138.6, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/040.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 0 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :2048.0, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/041.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 1 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :2094.3333333333335, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/042.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 1 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :2048.6666666666665, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/043.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 0 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :2079.5, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/044.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 2 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :2172.4, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/045.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 1 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :2088.3333333333335, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/046.png'] tensor(1.)
+predicting on cuda..
+number of cable count in splicing_connectors: 2, but the default cable count is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/047.png'] tensor(1.)
+predicting on cuda..
+number of cable count in splicing_connectors: 2, but the default cable count is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/048.png'] tensor(1.)
+predicting on cuda..
+number of cable count in splicing_connectors: 2, but the default cable count is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/049.png'] tensor(1.)
+predicting on cuda..
+number of cable count in splicing_connectors: 2, but the default cable count is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/050.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/051.png'] tensor(0.9436, dtype=torch.float64)
+predicting on cuda..
+number of cable count in splicing_connectors: 2, but the default cable count is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/052.png'] tensor(1.)
+predicting on cuda..
+number of cable count in splicing_connectors: 2, but the default cable count is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/053.png'] tensor(1.)
+predicting on cuda..
+number of cable count in splicing_connectors: 2, but the default cable count is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/054.png'] tensor(1.)
+predicting on cuda..
+number of cable count in splicing_connectors: 2, but the default cable count is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/055.png'] tensor(1.)
+predicting on cuda..
+number of cable count in splicing_connectors: 2, but the default cable count is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/056.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/057.png'] tensor(0.9670, dtype=torch.float64)
+predicting on cuda..
+number of cable count in splicing_connectors: 2, but the default cable count is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/058.png'] tensor(1.)
+predicting on cuda..
+cable is too short or too long.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/059.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 0 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :10782.0, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/060.png'] tensor(1.)
+predicting on cuda..
+cable is too short or too long.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/061.png'] tensor(1.)
+predicting on cuda..
+cable is too short or too long.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/062.png'] tensor(1.)
+predicting on cuda..
+cable is too short or too long.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/063.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 0 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :10611.0, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/064.png'] tensor(1.)
+predicting on cuda..
+cable is too short or too long.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/065.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 0 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :6135.5, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/066.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 0 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :6368.0, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/067.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 0 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :10788.0, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/068.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 0 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :6321.0, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/069.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 0 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :10720.0, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/070.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 1 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :2732.3333333333335, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/071.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 2 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :1705.6, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/072.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 2 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :2456.2, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/073.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 2 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :1649.6, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/074.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 2 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :2399.2, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/075.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 0 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :10684.5, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/076.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 1 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :7183.666666666667, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/077.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 0 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :6086.5, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/078.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 0 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :6244.0, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/079.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 1 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :2650.6666666666665, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/080.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 1 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :7235.0, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/081.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 0 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :10713.5, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/082.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/083.png'] tensor(0.7037, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/084.png'] tensor(0.8458, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/085.png'] tensor(0.9983, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/086.png'] tensor(0.9149, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/087.png'] tensor(0.7618, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/088.png'] tensor(0.5264, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/089.png'] tensor(0.7805, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/090.png'] tensor(0.5019, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/091.png'] tensor(0.5587, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/092.png'] tensor(0.7657, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/093.png'] tensor(0.9713, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/094.png'] tensor(0.6950, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/095.png'] tensor(0.6882, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/096.png'] tensor(0.4856, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/097.png'] tensor(0.4550, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/098.png'] tensor(0.6805, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/099.png'] tensor(0.5681, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/100.png'] tensor(0.5023, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/101.png'] tensor(0.4571, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/102.png'] tensor(0.6239, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/103.png'] tensor(0.5825, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/104.png'] tensor(0.6590, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/105.png'] tensor(0.8951, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/106.png'] tensor(0.5333, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/logical_anomalies/107.png'] tensor(0.3990, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/000.png'] tensor(0.9700, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/001.png'] tensor(0.8929, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/002.png'] tensor(0.9997, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/003.png'] tensor(0.9516, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/004.png'] tensor(0.9764, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/005.png'] tensor(0.9997, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/006.png'] tensor(0.9972, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/007.png'] tensor(0.9721, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/008.png'] tensor(0.9995, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/009.png'] tensor(0.9907, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/010.png'] tensor(0.9989, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/011.png'] tensor(0.9985, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/012.png'] tensor(0.9889, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/013.png'] tensor(0.9997, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/014.png'] tensor(0.9075, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/015.png'] tensor(0.7157, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/016.png'] tensor(0.9976, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/017.png'] tensor(0.9986, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/018.png'] tensor(0.8911, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/019.png'] tensor(0.8622, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/020.png'] tensor(0.8470, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/021.png'] tensor(0.7907, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/022.png'] tensor(0.9996, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/023.png'] tensor(0.9978, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/024.png'] tensor(0.9919, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/025.png'] tensor(0.9699, dtype=torch.float64)
+predicting on cuda..
+number of connected component in splicing_connectors: 2, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/026.png'] tensor(1.)
+predicting on cuda..
+number of connected component in splicing_connectors: 2, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/027.png'] tensor(1.)
+predicting on cuda..
+number of connected component in splicing_connectors: 2, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/028.png'] tensor(1.)
+predicting on cuda..
+number of connected component in splicing_connectors: 2, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/029.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/030.png'] tensor(0.9878, dtype=torch.float64)
+predicting on cuda..
+number of connected component in splicing_connectors: 2, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/031.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/032.png'] tensor(0.9726, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/033.png'] tensor(0.5105, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/034.png'] tensor(0.9493, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/035.png'] tensor(0.9943, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/036.png'] tensor(1.0000, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/037.png'] tensor(0.9977, dtype=torch.float64)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 0 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :10705.5, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/038.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/039.png'] tensor(0.9816, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/040.png'] tensor(0.9963, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/041.png'] tensor(0.9870, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/042.png'] tensor(0.9996, dtype=torch.float64)
+predicting on cuda..
+26-05-13 09:59:38.441 - INFO: 
+| category            |   K-shots |   F1-Max(image) |   AUROC(image) |   F1-Max (logical) |   AUROC (logical) |   F1-Max (structural) |   AUROC (structural) |
+|:--------------------|----------:|----------------:|---------------:|-------------------:|------------------:|----------------------:|---------------------:|
+| splicing_connectors |         4 |           91.26 |          93.48 |              86.57 |             90.34 |                 93.57 |                97.47 |
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/043.png'] tensor(0.9994, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/044.png'] tensor(0.9981, dtype=torch.float64)
+predicting on cuda..
+number of connected component in splicing_connectors: 2, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/045.png'] tensor(1.)
+predicting on cuda..
+number of connected component in splicing_connectors: 3, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/046.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/047.png'] tensor(1.0000, dtype=torch.float64)
+predicting on cuda..
+number of connected component in splicing_connectors: 2, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/048.png'] tensor(1.)
+predicting on cuda..
+number of connected component in splicing_connectors: 2, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/049.png'] tensor(1.)
+predicting on cuda..
+number of cable count in splicing_connectors: 4, but the default cable count is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/050.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/051.png'] tensor(1.0000, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/052.png'] tensor(1.0000, dtype=torch.float64)
+predicting on cuda..
+number of connected component in splicing_connectors: 2, but the default connected component is 1.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/053.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/054.png'] tensor(0.9998, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/055.png'] tensor(0.9997, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/056.png'] tensor(0.9997, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/057.png'] tensor(0.9984, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/058.png'] tensor(0.9998, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/059.png'] tensor(0.9998, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/060.png'] tensor(0.9977, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/061.png'] tensor(0.9997, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/062.png'] tensor(0.9979, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/063.png'] tensor(0.9986, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/064.png'] tensor(0.9991, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/065.png'] tensor(0.9967, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/066.png'] tensor(0.9983, dtype=torch.float64)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 1 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :7088.333333333333, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/067.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/068.png'] tensor(0.9997, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/069.png'] tensor(0.9883, dtype=torch.float64)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 0 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :10508.5, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/070.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 1 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :2828.6666666666665, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/071.png'] tensor(1.)
+predicting on cuda..
+cable color and number of clamps mismatch, cable color idx: 0 (0: yellow 2-clamp, 1: blue 3-clamp, 2: red 5-clamp), foreground_pixel_count :6192.0, canonical foreground_pixel_hist: 4249.666666666667.
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/072.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/073.png'] tensor(0.9978, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/074.png'] tensor(0.9959, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/075.png'] tensor(0.9819, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/076.png'] tensor(0.9620, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/077.png'] tensor(0.9917, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/078.png'] tensor(0.9984, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/079.png'] tensor(0.9591, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/080.png'] tensor(0.9974, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/081.png'] tensor(0.9935, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/082.png'] tensor(0.9965, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/083.png'] tensor(0.9840, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/splicing_connectors/test/structural_anomalies/084.png'] tensor(0.9924, dtype=torch.float64)

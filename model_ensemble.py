@@ -6,6 +6,7 @@ from torchvision.transforms.v2.functional import resize
 
 import os
 import cv2
+import gc
 import json
 import torch
 import random
@@ -95,6 +96,7 @@ class MyModel(nn.Module):
 
         self.memory_size = 2048
         self.n_neighbors = 2
+        self.patchcore_memory_chunk_size = int(os.getenv("LOGSAD_PATCHCORE_CHUNK_SIZE", "4096"))
 
         self.model_clip.eval()
         self.test_args = None
@@ -229,6 +231,24 @@ class MyModel(nn.Module):
 
         return {"pred_score": torch.tensor(pred_score), "hist_score": torch.tensor(hist_score), "structural_score": torch.tensor(structural_score), "instance_hungarian_match_score": torch.tensor(instance_hungarian_match_score)}
         
+    def nearest_patchcore_similarity(self, patch_feature: torch.Tensor, mem_patch_feature: torch.Tensor) -> torch.Tensor:
+        """Compute nearest memory-bank similarity without materializing the full matrix."""
+        patch_feature = F.normalize(patch_feature, dim=-1)
+        max_similarity = torch.full(
+            (patch_feature.shape[0],),
+            -float("inf"),
+            device=patch_feature.device,
+            dtype=patch_feature.dtype,
+        )
+
+        for mem_chunk in mem_patch_feature.split(self.patchcore_memory_chunk_size, dim=0):
+            mem_chunk = F.normalize(mem_chunk.to(patch_feature.device, non_blocking=True), dim=-1)
+            chunk_similarity = patch_feature @ mem_chunk.T
+            max_similarity = torch.maximum(max_similarity, chunk_similarity.max(1)[0])
+            del mem_chunk, chunk_similarity
+
+        return max_similarity
+
 
     def forward_one_sample(self, batch: torch.Tensor, mem_patch_feature_clip_coreset: torch.Tensor, mem_patch_feature_dinov2_coreset: torch.Tensor, path: str):
 
@@ -281,10 +301,7 @@ class MyModel(nn.Module):
         if self.class_name in ['pushpins', 'screw_bag']: # clip feature for patchcore
             len_feature_list = len(self.feature_list)
             for patch_feature, mem_patch_feature in zip(patch_tokens_clip.chunk(len_feature_list, dim=-1), mem_patch_feature_clip_coreset.chunk(len_feature_list, dim=-1)):
-                patch_feature = F.normalize(patch_feature, dim=-1)
-                mem_patch_feature = F.normalize(mem_patch_feature, dim=-1)
-                normal_map_patchcore = (patch_feature @ mem_patch_feature.T)
-                normal_map_patchcore = (normal_map_patchcore.max(1)[0]).cpu().numpy() # 1: normal 0: abnormal
+                normal_map_patchcore = self.nearest_patchcore_similarity(patch_feature, mem_patch_feature).cpu().numpy() # 1: normal 0: abnormal
                 anomaly_map_patchcore = 1 - normal_map_patchcore 
 
                 anomaly_maps_patchcore.append(anomaly_map_patchcore)
@@ -292,10 +309,7 @@ class MyModel(nn.Module):
         if self.class_name in ['splicing_connectors', 'breakfast_box', 'juice_bottle']: # dinov2 feature for patchcore
             len_feature_list = len(self.feature_list_dinov2)
             for patch_feature, mem_patch_feature in zip(patch_tokens_dinov2.chunk(len_feature_list, dim=-1), mem_patch_feature_dinov2_coreset.chunk(len_feature_list, dim=-1)):
-                patch_feature = F.normalize(patch_feature, dim=-1)
-                mem_patch_feature = F.normalize(mem_patch_feature, dim=-1)
-                normal_map_patchcore = (patch_feature @ mem_patch_feature.T)
-                normal_map_patchcore = (normal_map_patchcore.max(1)[0]).cpu().numpy() # 1: normal 0: abnormal  
+                normal_map_patchcore = self.nearest_patchcore_similarity(patch_feature, mem_patch_feature).cpu().numpy() # 1: normal 0: abnormal  
                 anomaly_map_patchcore = 1 - normal_map_patchcore 
 
                 anomaly_maps_patchcore.append(anomaly_map_patchcore)
@@ -867,7 +881,7 @@ class MyModel(nn.Module):
             mem_instance_features = torch.cat(mem_instance_features, dim=0)
             mem_instance_features = F.normalize(mem_instance_features, dim=-1) # 4 stages
             # mem_instance_features_multi_stage.append(mem_instance_features)
-            self.mem_instance_features_multi_stage[idx].append(mem_instance_features)
+            self.mem_instance_features_multi_stage[idx].append(mem_instance_features.detach().cpu())
 
 
         mem_patch_feature_clip_coreset = patch_tokens_clip
@@ -886,8 +900,14 @@ class MyModel(nn.Module):
         dinov2_sampler = KCenterGreedy(embedding=mem_patch_feature_dinov2_coreset, sampling_ratio=0.25)
         mem_patch_feature_dinov2_coreset = dinov2_sampler.sample_coreset()
 
-        self.mem_patch_feature_clip_coreset.append(mem_patch_feature_clip_coreset)
-        self.mem_patch_feature_dinov2_coreset.append(mem_patch_feature_dinov2_coreset)
+        self.mem_patch_feature_clip_coreset.append(mem_patch_feature_clip_coreset.detach().cpu())
+        self.mem_patch_feature_dinov2_coreset.append(mem_patch_feature_dinov2_coreset.detach().cpu())
+
+        del clip_sampler, dinov2_sampler
+        del mem_patch_feature_clip_coreset, mem_patch_feature_dinov2_coreset
+        if self.device.type == "cuda":
+            torch.cuda.empty_cache()
+        gc.collect()
 
 
     def setup(self, data: dict) -> None:
@@ -936,11 +956,10 @@ class MyModel(nn.Module):
         else:
             self.process(class_name, few_shot_samples[0 : self.k_shot], few_shot_paths[0 : self.k_shot])
 
-            self.mem_patch_feature_clip_coreset = torch.load('memory_bank/mem_patch_feature_clip_{}.pt'.format(self.class_name))
-            self.mem_patch_feature_dinov2_coreset = torch.load('memory_bank/mem_patch_feature_dinov2_{}.pt'.format(self.class_name))
-            self.mem_instance_features_multi_stage = torch.load('memory_bank/mem_instance_features_multi_stage_{}.pt'.format(self.class_name))
+            self.mem_patch_feature_clip_coreset = torch.load('memory_bank/mem_patch_feature_clip_{}.pt'.format(self.class_name), map_location="cpu")
+            self.mem_patch_feature_dinov2_coreset = torch.load('memory_bank/mem_patch_feature_dinov2_{}.pt'.format(self.class_name), map_location="cpu")
+            self.mem_instance_features_multi_stage = torch.load('memory_bank/mem_instance_features_multi_stage_{}.pt'.format(self.class_name), map_location=self.device)
 
 
         self.few_shot_inited = True
         
-

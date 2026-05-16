@@ -87,7 +87,7 @@ def run(module_path: str, class_name: str, weights_path: str, dataset_path: str,
     
     # pass few-shot images and dataset category to model
     setup_data = {
-        "few_shot_samples": torch.stack([datamodule.train_data[idx]["image"] for idx in FEW_SHOT_SAMPLES]).to(device),
+        "few_shot_samples": torch.stack([datamodule.train_data[idx]["image"] for idx in FEW_SHOT_SAMPLES]),
         "few_shot_samples_path": [datamodule.train_data[idx]["image_path"] for idx in FEW_SHOT_SAMPLES],
         "dataset_category": category,
     }

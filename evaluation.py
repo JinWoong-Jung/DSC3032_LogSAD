@@ -19,7 +19,7 @@ from anomalib.metrics.auroc import AUROC
 from tabulate import tabulate
 import numpy as np
 
-FEW_SHOT_SAMPLES = [0, 1, 2, 3]
+DEFAULT_K_SHOT = 4
 
 def parse_args() -> argparse.Namespace:
     """Parse command line arguments.
@@ -33,6 +33,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--weights_path", type=str, required=False)
     parser.add_argument("--dataset_path", default='/home/bhu/Project/datasets/mvtec_loco_anomaly_detection/', type=str, required=False)
     parser.add_argument("--category", type=str, required=True)
+    parser.add_argument("--k_shot", default=DEFAULT_K_SHOT, type=int, required=False)
     parser.add_argument("--viz", action='store_true', default=False)
     return parser.parse_args()
 
@@ -58,7 +59,7 @@ def load_model(module_path: str, class_name: str, weights_path: str) -> nn.Modul
     return model
 
 
-def run(module_path: str, class_name: str, weights_path: str, dataset_path: str, category: str, viz: bool) -> None:
+def run(module_path: str, class_name: str, weights_path: str, dataset_path: str, category: str, k_shot: int, viz: bool) -> None:
     """Run the evaluation script.
 
     Args:
@@ -80,6 +81,13 @@ def run(module_path: str, class_name: str, weights_path: str, dataset_path: str,
     datamodule = MVTecLoco(root=dataset_path, eval_batch_size=1, image_size=(448, 448), category=category)
     datamodule.setup()
 
+    if k_shot < 1:
+        raise ValueError(f"k_shot must be at least 1, got {k_shot}")
+    if k_shot > len(datamodule.train_data):
+        raise ValueError(f"k_shot={k_shot} exceeds available train samples ({len(datamodule.train_data)})")
+
+    few_shot_samples = list(range(k_shot))
+
     model.set_viz(viz)
 
     #
@@ -100,8 +108,8 @@ def run(module_path: str, class_name: str, weights_path: str, dataset_path: str,
     #
     # pass few-shot images and dataset category to model
     setup_data = {
-        "few_shot_samples": torch.stack([datamodule.train_data[idx]["image"] for idx in FEW_SHOT_SAMPLES]).to(device),
-        "few_shot_samples_path": [datamodule.train_data[idx]["image_path"] for idx in FEW_SHOT_SAMPLES],
+        "few_shot_samples": torch.stack([datamodule.train_data[idx]["image"] for idx in few_shot_samples]).to(device),
+        "few_shot_samples_path": [datamodule.train_data[idx]["image_path"] for idx in few_shot_samples],
         "dataset_category": category,
     }
     model.setup(setup_data)
@@ -137,7 +145,7 @@ def run(module_path: str, class_name: str, weights_path: str, dataset_path: str,
     logger.addHandler(console_handler)
 
     table_ls = [[category,
-                str(len(FEW_SHOT_SAMPLES)),
+                str(len(few_shot_samples)),
                 str(np.round(image_metric.compute().item() * 100, decimals=2)),
                 str(np.round(image_metric_auroc.compute().item() * 100, decimals=2)),
                 # str(np.round(pixel_metric.compute().item() * 100, decimals=2)),
@@ -156,4 +164,4 @@ def run(module_path: str, class_name: str, weights_path: str, dataset_path: str,
 
 if __name__ == "__main__":
     args = parse_args()
-    run(args.module_path, args.class_name, args.weights_path, args.dataset_path, args.category, args.viz)
+    run(args.module_path, args.class_name, args.weights_path, args.dataset_path, args.category, args.k_shot, args.viz)

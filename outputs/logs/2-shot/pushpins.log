@@ -1,0 +1,726 @@
+/home/gaya6/LogSAD/dinov2/dinov2/layers/swiglu_ffn.py:43: UserWarning: xFormers is available (SwiGLU)
+  warnings.warn("xFormers is available (SwiGLU)")
+/home/gaya6/LogSAD/dinov2/dinov2/layers/attention.py:27: UserWarning: xFormers is available (Attention)
+  warnings.warn("xFormers is available (Attention)")
+/home/gaya6/LogSAD/dinov2/dinov2/layers/block.py:33: UserWarning: xFormers is available (Block)
+  warnings.warn("xFormers is available (Block)")
+running k-means on cuda..
+[running kmeans]: 0it [00:00, ?it/s][running kmeans]: 0it [00:00, ?it/s, center_shift=26.390980, iteration=1, tol=0.000100][running kmeans]: 1it [00:00,  2.70it/s, center_shift=26.390980, iteration=1, tol=0.000100][running kmeans]: 1it [00:00,  2.70it/s, center_shift=0.661649, iteration=2, tol=0.000100] [running kmeans]: 2it [00:00,  2.96it/s, center_shift=0.661649, iteration=2, tol=0.000100][running kmeans]: 2it [00:00,  2.96it/s, center_shift=0.441479, iteration=3, tol=0.000100][running kmeans]: 3it [00:00,  3.08it/s, center_shift=0.441479, iteration=3, tol=0.000100][running kmeans]: 3it [00:01,  3.08it/s, center_shift=0.288266, iteration=4, tol=0.000100][running kmeans]: 4it [00:01,  3.10it/s, center_shift=0.288266, iteration=4, tol=0.000100][running kmeans]: 4it [00:01,  3.10it/s, center_shift=0.181514, iteration=5, tol=0.000100][running kmeans]: 5it [00:01,  3.07it/s, center_shift=0.181514, iteration=5, tol=0.000100][running kmeans]: 5it [00:01,  3.07it/s, center_shift=0.079529, iteration=6, tol=0.000100][running kmeans]: 6it [00:01,  3.11it/s, center_shift=0.079529, iteration=6, tol=0.000100][running kmeans]: 6it [00:02,  3.11it/s, center_shift=0.052743, iteration=7, tol=0.000100][running kmeans]: 7it [00:02,  3.13it/s, center_shift=0.052743, iteration=7, tol=0.000100][running kmeans]: 7it [00:02,  3.13it/s, center_shift=0.090998, iteration=8, tol=0.000100][running kmeans]: 8it [00:02,  3.15it/s, center_shift=0.090998, iteration=8, tol=0.000100][running kmeans]: 8it [00:02,  3.15it/s, center_shift=0.123601, iteration=9, tol=0.000100][running kmeans]: 9it [00:02,  3.15it/s, center_shift=0.123601, iteration=9, tol=0.000100][running kmeans]: 9it [00:03,  3.15it/s, center_shift=0.081190, iteration=10, tol=0.000100][running kmeans]: 10it [00:03,  3.15it/s, center_shift=0.081190, iteration=10, tol=0.000100][running kmeans]: 10it [00:03,  3.15it/s, center_shift=0.087709, iteration=11, tol=0.000100][running kmeans]: 11it [00:03,  3.15it/s, center_shift=0.087709, iteration=11, tol=0.000100][running kmeans]: 11it [00:03,  3.15it/s, center_shift=0.080099, iteration=12, tol=0.000100][running kmeans]: 12it [00:03,  3.15it/s, center_shift=0.080099, iteration=12, tol=0.000100][running kmeans]: 12it [00:04,  3.15it/s, center_shift=0.049114, iteration=13, tol=0.000100][running kmeans]: 13it [00:04,  3.15it/s, center_shift=0.049114, iteration=13, tol=0.000100][running kmeans]: 13it [00:04,  3.15it/s, center_shift=0.020107, iteration=14, tol=0.000100][running kmeans]: 14it [00:04,  3.15it/s, center_shift=0.020107, iteration=14, tol=0.000100][running kmeans]: 14it [00:04,  3.15it/s, center_shift=0.006509, iteration=15, tol=0.000100][running kmeans]: 15it [00:04,  3.13it/s, center_shift=0.006509, iteration=15, tol=0.000100][running kmeans]: 15it [00:05,  3.13it/s, center_shift=0.001765, iteration=16, tol=0.000100][running kmeans]: 16it [00:05,  3.12it/s, center_shift=0.001765, iteration=16, tol=0.000100][running kmeans]: 16it [00:05,  3.12it/s, center_shift=0.001594, iteration=17, tol=0.000100][running kmeans]: 17it [00:05,  3.11it/s, center_shift=0.001594, iteration=17, tol=0.000100][running kmeans]: 17it [00:05,  3.11it/s, center_shift=0.001635, iteration=18, tol=0.000100][running kmeans]: 18it [00:05,  3.11it/s, center_shift=0.001635, iteration=18, tol=0.000100][running kmeans]: 18it [00:06,  3.11it/s, center_shift=0.001242, iteration=19, tol=0.000100][running kmeans]: 19it [00:06,  3.10it/s, center_shift=0.001242, iteration=19, tol=0.000100][running kmeans]: 19it [00:06,  3.10it/s, center_shift=0.000423, iteration=20, tol=0.000100][running kmeans]: 20it [00:06,  3.10it/s, center_shift=0.000423, iteration=20, tol=0.000100][running kmeans]: 20it [00:06,  3.10it/s, center_shift=0.000215, iteration=21, tol=0.000100][running kmeans]: 21it [00:06,  3.10it/s, center_shift=0.000215, iteration=21, tol=0.000100][running kmeans]: 21it [00:07,  3.10it/s, center_shift=0.000103, iteration=22, tol=0.000100][running kmeans]: 22it [00:07,  3.10it/s, center_shift=0.000103, iteration=22, tol=0.000100][running kmeans]: 22it [00:07,  3.10it/s, center_shift=0.000091, iteration=23, tol=0.000100][running kmeans]: 23it [00:07,  3.10it/s, center_shift=0.000091, iteration=23, tol=0.000100][running kmeans]: 23it [00:07,  3.11it/s, center_shift=0.000091, iteration=23, tol=0.000100]
+predicting on cuda..
+predicting on cuda..
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/000.png'] tensor(0.9951, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/001.png'] tensor(0.9355, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/002.png'] tensor(0.9184, dtype=torch.float64)
+predicting on cuda..
+number of pushpins: 16, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/003.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/004.png'] tensor(0.8419, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/005.png'] tensor(0.7980, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/006.png'] tensor(0.9541, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/007.png'] tensor(0.8574, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/008.png'] tensor(0.9227, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/009.png'] tensor(0.9559, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/010.png'] tensor(0.9152, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/011.png'] tensor(0.6598, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/012.png'] tensor(0.9827, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/013.png'] tensor(0.9086, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/014.png'] tensor(0.9593, dtype=torch.float64)
+predicting on cuda..
+number of pushpins: 14, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/015.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/016.png'] tensor(0.9350, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/017.png'] tensor(0.6275, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/018.png'] tensor(0.8985, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/019.png'] tensor(0.8172, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/020.png'] tensor(0.8437, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/021.png'] tensor(0.7727, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/022.png'] tensor(0.7974, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/023.png'] tensor(0.6138, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/024.png'] tensor(0.9634, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/025.png'] tensor(0.9212, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/026.png'] tensor(0.7485, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/027.png'] tensor(0.8086, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/028.png'] tensor(0.8085, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/029.png'] tensor(0.5621, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/030.png'] tensor(0.9617, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/031.png'] tensor(0.8010, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/032.png'] tensor(0.8000, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/033.png'] tensor(0.6793, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/034.png'] tensor(0.7829, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/035.png'] tensor(0.8826, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/036.png'] tensor(0.9379, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/037.png'] tensor(0.7591, dtype=torch.float64)
+predicting on cuda..
+number of pushpins: 16, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/038.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/039.png'] tensor(0.9255, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/040.png'] tensor(0.7804, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/041.png'] tensor(0.7415, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/042.png'] tensor(0.8884, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/043.png'] tensor(0.7776, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/044.png'] tensor(0.7649, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/045.png'] tensor(0.8981, dtype=torch.float64)
+predicting on cuda..
+number of pushpins: 14, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/046.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/047.png'] tensor(0.8782, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/048.png'] tensor(0.9275, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/049.png'] tensor(0.9045, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/050.png'] tensor(0.8929, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/051.png'] tensor(0.8725, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/052.png'] tensor(0.8331, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/053.png'] tensor(0.9331, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/054.png'] tensor(0.5736, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/055.png'] tensor(0.6056, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/056.png'] tensor(0.9900, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/057.png'] tensor(0.9129, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/058.png'] tensor(0.7078, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/059.png'] tensor(0.6188, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/060.png'] tensor(0.9187, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/061.png'] tensor(0.7698, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/062.png'] tensor(0.9470, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/063.png'] tensor(0.9102, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/064.png'] tensor(0.7773, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/065.png'] tensor(0.7231, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/066.png'] tensor(0.9203, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/067.png'] tensor(0.9584, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/068.png'] tensor(0.8475, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/069.png'] tensor(0.6995, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/070.png'] tensor(0.8615, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/071.png'] tensor(0.7482, dtype=torch.float64)
+predicting on cuda..
+number of pushpins: 16, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/072.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/073.png'] tensor(0.5154, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/074.png'] tensor(0.9085, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/075.png'] tensor(0.7108, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/076.png'] tensor(0.8522, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/077.png'] tensor(0.9635, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/078.png'] tensor(0.9632, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/079.png'] tensor(0.9042, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/080.png'] tensor(0.7956, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/081.png'] tensor(0.9275, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/082.png'] tensor(0.9569, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/083.png'] tensor(0.9228, dtype=torch.float64)
+predicting on cuda..
+number of pushpins: 14, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/084.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/085.png'] tensor(0.9369, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/086.png'] tensor(0.9733, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/087.png'] tensor(0.6971, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/088.png'] tensor(0.8682, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/089.png'] tensor(0.9834, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/090.png'] tensor(0.9199, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/091.png'] tensor(0.6454, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/092.png'] tensor(0.9048, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/093.png'] tensor(0.8064, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/094.png'] tensor(0.7501, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/095.png'] tensor(0.9373, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/096.png'] tensor(0.8529, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/097.png'] tensor(0.8090, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/098.png'] tensor(0.7832, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/099.png'] tensor(0.9416, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/100.png'] tensor(0.8925, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/101.png'] tensor(0.9922, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/102.png'] tensor(0.3920, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/103.png'] tensor(0.8344, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/104.png'] tensor(0.9699, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/105.png'] tensor(0.9085, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/106.png'] tensor(0.9809, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/107.png'] tensor(0.9628, dtype=torch.float64)
+predicting on cuda..
+number of pushpins: 14, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/108.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/109.png'] tensor(0.7808, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/110.png'] tensor(0.9369, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/111.png'] tensor(0.7541, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/112.png'] tensor(0.9300, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/113.png'] tensor(0.7095, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/114.png'] tensor(0.9965, dtype=torch.float64)
+predicting on cuda..
+number of pushpins: 16, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/115.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/116.png'] tensor(0.8697, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/117.png'] tensor(0.8479, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/118.png'] tensor(0.9204, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/119.png'] tensor(0.6748, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/120.png'] tensor(0.9892, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/121.png'] tensor(0.7735, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/122.png'] tensor(0.8254, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/123.png'] tensor(0.9191, dtype=torch.float64)
+predicting on cuda..
+number of pushpins: 14, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/124.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/125.png'] tensor(0.9627, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/126.png'] tensor(0.9494, dtype=torch.float64)
+predicting on cuda..
+number of pushpins: 14, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/127.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/128.png'] tensor(0.9384, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/129.png'] tensor(0.8292, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/130.png'] tensor(0.9223, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/131.png'] tensor(0.4583, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/132.png'] tensor(0.5110, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/133.png'] tensor(0.7467, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/134.png'] tensor(0.6419, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/135.png'] tensor(0.9542, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/136.png'] tensor(0.9845, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/good/137.png'] tensor(0.8668, dtype=torch.float64)
+predicting on cuda..
+number of pushpins: 16, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/000.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 16, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/001.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 16, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/002.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/003.png'] tensor(0.8919, dtype=torch.float64)
+predicting on cuda..
+number of pushpins: 16, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/004.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 16, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/005.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/006.png'] tensor(0.7215, dtype=torch.float64)
+predicting on cuda..
+number of pushpins: 16, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/007.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 16, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/008.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 16, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/009.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 16, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/010.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 16, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/011.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 17, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/012.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 17, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/013.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 17, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/014.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 17, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/015.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 17, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/016.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 17, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/017.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 23, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/018.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 23, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/019.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 18, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/020.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 24, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/021.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 18, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/022.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 22, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/023.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 21, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/024.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/025.png'] tensor(0.4972, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/026.png'] tensor(0.9813, dtype=torch.float64)
+predicting on cuda..
+number of pushpins: 14, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/027.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/028.png'] tensor(0.7717, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/029.png'] tensor(0.8963, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/030.png'] tensor(0.9518, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/031.png'] tensor(0.9422, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/032.png'] tensor(0.9203, dtype=torch.float64)
+predicting on cuda..
+number of pushpins: 14, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/033.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/034.png'] tensor(0.8321, dtype=torch.float64)
+predicting on cuda..
+number of pushpins: 14, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/035.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/036.png'] tensor(0.9917, dtype=torch.float64)
+predicting on cuda..
+number of pushpins: 14, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/037.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/038.png'] tensor(0.9611, dtype=torch.float64)
+predicting on cuda..
+number of pushpins: 14, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/039.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 14, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/040.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 14, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/041.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 14, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/042.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 14, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/043.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 14, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/044.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 14, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/045.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 14, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/046.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 14, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/047.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 14, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/048.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 14, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/049.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 14, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/050.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 13, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/051.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 13, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/052.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 13, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/053.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 13, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/054.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 13, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/055.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 13, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/056.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 0, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/057.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 0, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/058.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 0, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/059.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 0, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/060.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 0, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/061.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/062.png'] tensor(0.9205, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/063.png'] tensor(0.9365, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/064.png'] tensor(0.9670, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/065.png'] tensor(0.5063, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/066.png'] tensor(0.9161, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/067.png'] tensor(0.9367, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/068.png'] tensor(0.9146, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/069.png'] tensor(0.9435, dtype=torch.float64)
+predicting on cuda..
+number of pushpins: 17, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/070.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 17, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/071.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 17, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/072.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 17, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/073.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 16, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/074.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 17, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/075.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/076.png'] tensor(0.8730, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/077.png'] tensor(0.5176, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/078.png'] tensor(0.9722, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/079.png'] tensor(0.7481, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/080.png'] tensor(0.8809, dtype=torch.float64)
+predicting on cuda..
+number of pushpins: 12, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/081.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 12, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/082.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 12, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/083.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 13, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/084.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 12, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/085.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 12, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/086.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 11, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/087.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 12, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/088.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 12, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/089.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 12, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/logical_anomalies/090.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 14, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/000.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/001.png'] tensor(0.8981, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/002.png'] tensor(0.8726, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/003.png'] tensor(0.9677, dtype=torch.float64)
+predicting on cuda..
+number of pushpins: 16, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/004.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 16, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/005.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/006.png'] tensor(0.8880, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/007.png'] tensor(0.9668, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/008.png'] tensor(0.9021, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/009.png'] tensor(0.9856, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/010.png'] tensor(0.8680, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/011.png'] tensor(0.9707, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/012.png'] tensor(0.9786, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/013.png'] tensor(0.7719, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/014.png'] tensor(0.9774, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/015.png'] tensor(0.9681, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/016.png'] tensor(0.8700, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/017.png'] tensor(0.9992, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/018.png'] tensor(0.9659, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/019.png'] tensor(0.8380, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/020.png'] tensor(0.9600, dtype=torch.float64)
+predicting on cuda..
+number of pushpins: 16, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/021.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/022.png'] tensor(0.9989, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/023.png'] tensor(0.8879, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/024.png'] tensor(0.9354, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/025.png'] tensor(0.9916, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/026.png'] tensor(0.9174, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/027.png'] tensor(0.9396, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/028.png'] tensor(0.8912, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/029.png'] tensor(1.0000, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/030.png'] tensor(0.9996, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/031.png'] tensor(0.9981, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/032.png'] tensor(0.9998, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/033.png'] tensor(0.9980, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/034.png'] tensor(0.9999, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/035.png'] tensor(0.9553, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/036.png'] tensor(0.9997, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/037.png'] tensor(0.9812, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/038.png'] tensor(0.9991, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/039.png'] tensor(0.9996, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/040.png'] tensor(1.0000, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/041.png'] tensor(0.9984, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/042.png'] tensor(0.9959, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/043.png'] tensor(0.7455, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/044.png'] tensor(0.9999, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/045.png'] tensor(1.0000, dtype=torch.float64)
+predicting on cuda..
+number of pushpins: 16, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/046.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/047.png'] tensor(1.0000, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/048.png'] tensor(0.9484, dtype=torch.float64)
+predicting on cuda..
+number of pushpins: 16, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/049.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 16, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/050.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 16, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/051.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 16, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/052.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/053.png'] tensor(0.9967, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/054.png'] tensor(0.9976, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/055.png'] tensor(0.9516, dtype=torch.float64)
+predicting on cuda..
+number of pushpins: 16, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/056.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 16, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/057.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 14, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/058.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/059.png'] tensor(1.0000, dtype=torch.float64)
+predicting on cuda..
+number of pushpins: 16, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/060.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 16, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/061.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/062.png'] tensor(1.0000, dtype=torch.float64)
+predicting on cuda..
+number of pushpins: 16, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/063.png'] tensor(1.)
+predicting on cuda..
+number of pushpins: 16, but canonical number of pushpins: 15
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/064.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/065.png'] tensor(0.9014, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/066.png'] tensor(0.9178, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/067.png'] tensor(0.8477, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/068.png'] tensor(0.8980, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/069.png'] tensor(0.9250, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/070.png'] tensor(0.9766, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/071.png'] tensor(0.9495, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/072.png'] tensor(0.9746, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/073.png'] tensor(0.9963, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/074.png'] tensor(0.8769, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/075.png'] tensor(0.8134, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/076.png'] tensor(0.9680, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/077.png'] tensor(0.8753, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/078.png'] tensor(0.9786, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/079.png'] tensor(0.6187, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/pushpins/test/structural_anomalies/080.png'] tensor(0.8622, dtype=torch.float64)
+26-05-14 03:57:22.058 - INFO: 
+| category   |   K-shots |   F1-Max(image) |   AUROC(image) |   F1-Max (logical) |   AUROC (logical) |   F1-Max (structural) |   AUROC (structural) |
+|:-----------|----------:|----------------:|---------------:|-------------------:|------------------:|----------------------:|---------------------:|
+| pushpins   |         2 |           77.75 |          81.13 |              79.04 |             84.41 |                 67.53 |                77.46 |
