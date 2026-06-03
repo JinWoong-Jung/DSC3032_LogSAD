@@ -1,0 +1,52 @@
+/home/gaya6/LogSAD/dinov2/dinov2/layers/swiglu_ffn.py:43: UserWarning: xFormers is available (SwiGLU)
+  warnings.warn("xFormers is available (SwiGLU)")
+/home/gaya6/LogSAD/dinov2/dinov2/layers/attention.py:27: UserWarning: xFormers is available (Attention)
+  warnings.warn("xFormers is available (Attention)")
+/home/gaya6/LogSAD/dinov2/dinov2/layers/block.py:33: UserWarning: xFormers is available (Block)
+  warnings.warn("xFormers is available (Block)")
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/defective/000.png'] 0.4898679256439209
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/defective/001.png'] 0.3452955484390259
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/defective/002.png'] 0.467319518327713
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/defective/003.png'] 0.3424490690231323
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/defective/004.png'] 0.5211785435676575
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/defective/005.png'] 0.5509305000305176
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/defective/006.png'] 0.3336433172225952
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/defective/007.png'] 0.43489953875541687
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/defective/008.png'] 0.5117703676223755
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/defective/009.png'] 0.4718055725097656
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/defective/010.png'] 0.5879090428352356
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/defective/011.png'] 0.41487497091293335
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/defective/012.png'] 0.5090255737304688
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/defective/013.png'] 0.47815603017807007
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/defective/014.png'] 0.5497676134109497
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/defective/015.png'] 0.5326904654502869
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/defective/016.png'] 0.5522042512893677
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/defective/017.png'] 0.5614480376243591
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/defective/018.png'] 0.37952888011932373
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/defective/019.png'] 0.5210491418838501
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/defective/020.png'] 0.44183528423309326
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/defective/021.png'] 0.45880505442619324
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/defective/022.png'] 0.6024786829948425
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/defective/023.png'] 0.515058159828186
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/defective/024.png'] 0.4948868751525879
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/defective/025.png'] 0.5798043608665466
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/defective/026.png'] 0.5319629907608032
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/defective/027.png'] 0.49141308665275574
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/defective/028.png'] 0.4830547273159027
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/defective/029.png'] 0.5290074348449707
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/good/000.png'] 0.34697508811950684
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/good/001.png'] 0.29678165912628174
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/good/002.png'] 0.22420509159564972
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/good/003.png'] 0.3062378764152527
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/good/004.png'] 0.38330593705177307
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/good/005.png'] 0.41942280530929565
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/good/006.png'] 0.47687405347824097
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/good/007.png'] 0.48943883180618286
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/good/008.png'] 0.4241607189178467
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/good/009.png'] 0.4241117238998413
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/good/010.png'] 0.42574161291122437
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/toothbrush/test/good/011.png'] 0.3956260681152344
+26-06-02 17:18:35.279 - INFO: 
+| category   |   K-shots |   F1-Max(image) |   AUROC(image) |   F1-Max(pixel) |   AUROC(pixel) |
+|:-----------|----------:|----------------:|---------------:|----------------:|---------------:|
+| toothbrush |         1 |           87.72 |          85.28 |           53.03 |          97.25 |

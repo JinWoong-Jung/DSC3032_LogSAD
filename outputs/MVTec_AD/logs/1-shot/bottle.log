@@ -1,0 +1,93 @@
+/home/gaya6/LogSAD/dinov2/dinov2/layers/swiglu_ffn.py:43: UserWarning: xFormers is available (SwiGLU)
+  warnings.warn("xFormers is available (SwiGLU)")
+/home/gaya6/LogSAD/dinov2/dinov2/layers/attention.py:27: UserWarning: xFormers is available (Attention)
+  warnings.warn("xFormers is available (Attention)")
+/home/gaya6/LogSAD/dinov2/dinov2/layers/block.py:33: UserWarning: xFormers is available (Block)
+  warnings.warn("xFormers is available (Block)")
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_large/000.png'] 0.4300481677055359
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_large/001.png'] 0.48216331005096436
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_large/002.png'] 0.4500482380390167
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_large/003.png'] 0.4886811375617981
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_large/004.png'] 0.561299741268158
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_large/005.png'] 0.47415122389793396
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_large/006.png'] 0.5201774835586548
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_large/007.png'] 0.4183616638183594
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_large/008.png'] 0.4433894157409668
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_large/009.png'] 0.4867241680622101
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_large/010.png'] 0.4888507127761841
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_large/011.png'] 0.3990650177001953
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_large/012.png'] 0.5093289613723755
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_large/013.png'] 0.4178178906440735
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_large/014.png'] 0.4975166916847229
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_large/015.png'] 0.47540631890296936
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_large/016.png'] 0.4471306800842285
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_large/017.png'] 0.516925036907196
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_large/018.png'] 0.45881032943725586
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_large/019.png'] 0.4731692671775818
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_small/000.png'] 0.39052802324295044
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_small/001.png'] 0.5578958988189697
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_small/002.png'] 0.5486323237419128
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_small/003.png'] 0.4993663430213928
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_small/004.png'] 0.5297530889511108
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_small/005.png'] 0.36444365978240967
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_small/006.png'] 0.5159034729003906
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_small/007.png'] 0.43269413709640503
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_small/008.png'] 0.4481373429298401
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_small/009.png'] 0.48506519198417664
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_small/010.png'] 0.5192875862121582
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_small/011.png'] 0.4831731915473938
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_small/012.png'] 0.46466201543807983
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_small/013.png'] 0.4469147324562073
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_small/014.png'] 0.4280552864074707
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_small/015.png'] 0.4255247414112091
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_small/016.png'] 0.5206531882286072
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_small/017.png'] 0.5699948668479919
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_small/018.png'] 0.5205278396606445
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_small/019.png'] 0.4247153401374817
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_small/020.png'] 0.552270233631134
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/broken_small/021.png'] 0.5241029858589172
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/contamination/000.png'] 0.39593833684921265
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/contamination/001.png'] 0.3127119541168213
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/contamination/002.png'] 0.36131203174591064
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/contamination/003.png'] 0.3069753646850586
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/contamination/004.png'] 0.3017280399799347
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/contamination/005.png'] 0.539496123790741
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/contamination/006.png'] 0.49811941385269165
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/contamination/007.png'] 0.6147290468215942
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/contamination/008.png'] 0.4329535663127899
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/contamination/009.png'] 0.47062933444976807
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/contamination/010.png'] 0.46552228927612305
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/contamination/011.png'] 0.3401939868927002
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/contamination/012.png'] 0.36786001920700073
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/contamination/013.png'] 0.6068533062934875
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/contamination/014.png'] 0.4923376441001892
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/contamination/015.png'] 0.5100194215774536
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/contamination/016.png'] 0.31772246956825256
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/contamination/017.png'] 0.5787897706031799
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/contamination/018.png'] 0.4793297052383423
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/contamination/019.png'] 0.2873678207397461
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/contamination/020.png'] 0.3505706191062927
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/good/000.png'] 0.2457786202430725
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/good/001.png'] 0.2683712840080261
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/good/002.png'] 0.25322502851486206
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/good/003.png'] 0.2190605103969574
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/good/004.png'] 0.2398904263973236
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/good/005.png'] 0.2390078604221344
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/good/006.png'] 0.2687873840332031
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/good/007.png'] 0.23849031329154968
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/good/008.png'] 0.24721889197826385
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/good/009.png'] 0.24264973402023315
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/good/010.png'] 0.2335810363292694
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/good/011.png'] 0.24086298048496246
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/good/012.png'] 0.22920338809490204
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/good/013.png'] 0.24273917078971863
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/good/014.png'] 0.23028811812400818
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/good/015.png'] 0.3151739835739136
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/good/016.png'] 0.23995979130268097
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/good/017.png'] 0.2396446168422699
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/good/018.png'] 0.2442968189716339
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/bottle/test/good/019.png'] 0.24421775341033936
+26-06-02 17:09:48.012 - INFO: 
+| category   |   K-shots |   F1-Max(image) |   AUROC(image) |   F1-Max(pixel) |   AUROC(pixel) |
+|:-----------|----------:|----------------:|---------------:|----------------:|---------------:|
+| bottle     |         1 |           99.21 |          99.68 |           80.48 |          98.92 |

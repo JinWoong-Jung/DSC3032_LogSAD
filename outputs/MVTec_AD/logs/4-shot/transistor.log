@@ -1,0 +1,110 @@
+/home/gaya6/LogSAD/dinov2/dinov2/layers/swiglu_ffn.py:43: UserWarning: xFormers is available (SwiGLU)
+  warnings.warn("xFormers is available (SwiGLU)")
+/home/gaya6/LogSAD/dinov2/dinov2/layers/attention.py:27: UserWarning: xFormers is available (Attention)
+  warnings.warn("xFormers is available (Attention)")
+/home/gaya6/LogSAD/dinov2/dinov2/layers/block.py:33: UserWarning: xFormers is available (Block)
+  warnings.warn("xFormers is available (Block)")
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/bent_lead/000.png'] 0.34429603815078735
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/bent_lead/001.png'] 0.25544196367263794
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/bent_lead/002.png'] 0.33484822511672974
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/bent_lead/003.png'] 0.3492969274520874
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/bent_lead/004.png'] 0.33588021993637085
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/bent_lead/005.png'] 0.3434225618839264
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/bent_lead/006.png'] 0.3845721483230591
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/bent_lead/007.png'] 0.3700798749923706
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/bent_lead/008.png'] 0.3035171627998352
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/bent_lead/009.png'] 0.2898522615432739
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/cut_lead/000.png'] 0.279941201210022
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/cut_lead/001.png'] 0.29881006479263306
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/cut_lead/002.png'] 0.2868528962135315
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/cut_lead/003.png'] 0.31199318170547485
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/cut_lead/004.png'] 0.28127509355545044
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/cut_lead/005.png'] 0.2720462679862976
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/cut_lead/006.png'] 0.32454735040664673
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/cut_lead/007.png'] 0.29224106669425964
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/cut_lead/008.png'] 0.26037299633026123
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/cut_lead/009.png'] 0.2582130432128906
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/damaged_case/000.png'] 0.35476046800613403
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/damaged_case/001.png'] 0.3977550268173218
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/damaged_case/002.png'] 0.2640150189399719
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/damaged_case/003.png'] 0.34576186537742615
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/damaged_case/004.png'] 0.36501672863960266
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/damaged_case/005.png'] 0.29947471618652344
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/damaged_case/006.png'] 0.31072160601615906
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/damaged_case/007.png'] 0.33321672677993774
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/damaged_case/008.png'] 0.3847177028656006
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/damaged_case/009.png'] 0.36016935110092163
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/000.png'] 0.24288895726203918
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/001.png'] 0.2602655589580536
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/002.png'] 0.2868894934654236
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/003.png'] 0.2111312299966812
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/004.png'] 0.23113098740577698
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/005.png'] 0.23159876465797424
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/006.png'] 0.23091043531894684
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/007.png'] 0.23393680155277252
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/008.png'] 0.30893629789352417
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/009.png'] 0.2506868839263916
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/010.png'] 0.26335960626602173
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/011.png'] 0.24781270325183868
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/012.png'] 0.2508052587509155
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/013.png'] 0.22101463377475739
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/014.png'] 0.29734006524086
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/015.png'] 0.2673203945159912
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/016.png'] 0.2587859630584717
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/017.png'] 0.24015629291534424
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/018.png'] 0.24982738494873047
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/019.png'] 0.2454315572977066
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/020.png'] 0.2802632451057434
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/021.png'] 0.30125558376312256
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/022.png'] 0.2669932246208191
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/023.png'] 0.2577900290489197
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/024.png'] 0.2603074312210083
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/025.png'] 0.25100982189178467
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/026.png'] 0.28230440616607666
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/027.png'] 0.2404305338859558
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/028.png'] 0.2658293843269348
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/029.png'] 0.27210158109664917
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/030.png'] 0.23463834822177887
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/031.png'] 0.30063125491142273
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/032.png'] 0.2997652292251587
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/033.png'] 0.24597199261188507
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/034.png'] 0.24219214916229248
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/035.png'] 0.27850133180618286
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/036.png'] 0.31392702460289
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/037.png'] 0.2990531325340271
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/038.png'] 0.24037960171699524
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/039.png'] 0.2423272579908371
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/040.png'] 0.26799917221069336
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/041.png'] 0.29015183448791504
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/042.png'] 0.2512153089046478
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/043.png'] 0.2744465470314026
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/044.png'] 0.24798643589019775
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/045.png'] 0.32333070039749146
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/046.png'] 0.2590141296386719
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/047.png'] 0.25141966342926025
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/048.png'] 0.253304660320282
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/049.png'] 0.23394173383712769
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/050.png'] 0.2567594051361084
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/051.png'] 0.24383682012557983
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/052.png'] 0.29425495862960815
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/053.png'] 0.2692384123802185
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/054.png'] 0.3546338677406311
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/055.png'] 0.28394973278045654
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/056.png'] 0.2748580873012543
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/057.png'] 0.2946207523345947
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/058.png'] 0.26148104667663574
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/good/059.png'] 0.2639354467391968
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/misplaced/000.png'] 0.35317760705947876
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/misplaced/001.png'] 0.2993389964103699
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/misplaced/002.png'] 0.36246585845947266
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/misplaced/003.png'] 0.34947818517684937
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/misplaced/004.png'] 0.4009682536125183
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/misplaced/005.png'] 0.3931630849838257
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/misplaced/006.png'] 0.30751389265060425
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/misplaced/007.png'] 0.4374621510505676
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/misplaced/008.png'] 0.42048537731170654
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/transistor/test/misplaced/009.png'] 0.3419157862663269
+26-06-02 17:44:20.810 - INFO: 
+| category   |   K-shots |   F1-Max(image) |   AUROC(image) |   F1-Max(pixel) |   AUROC(pixel) |
+|:-----------|----------:|----------------:|---------------:|----------------:|---------------:|
+| transistor |         4 |           76.92 |          89.46 |           58.12 |          94.32 |

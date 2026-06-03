@@ -4,6 +4,8 @@ set -euo pipefail
 cd "$(dirname "$0")"
 
 DATASET_PATH="${DATASET_PATH:-/home/gaya6/LogSAD/datasets/MVTec_LOCO}"
+CUDA_VISIBLE_DEVICES="${CUDA_VISIBLE_DEVICES:-1}"
+export CUDA_VISIBLE_DEVICES
 DEFAULT_PYTHON="/home/gaya6/miniconda3/envs/logsad/bin/python"
 if [[ -z "${PYTHON_BIN:-}" ]]; then
   if [[ -x "${DEFAULT_PYTHON}" ]]; then

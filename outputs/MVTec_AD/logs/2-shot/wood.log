@@ -1,0 +1,89 @@
+/home/gaya6/LogSAD/dinov2/dinov2/layers/swiglu_ffn.py:43: UserWarning: xFormers is available (SwiGLU)
+  warnings.warn("xFormers is available (SwiGLU)")
+/home/gaya6/LogSAD/dinov2/dinov2/layers/attention.py:27: UserWarning: xFormers is available (Attention)
+  warnings.warn("xFormers is available (Attention)")
+/home/gaya6/LogSAD/dinov2/dinov2/layers/block.py:33: UserWarning: xFormers is available (Block)
+  warnings.warn("xFormers is available (Block)")
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/color/000.png'] 0.6106988191604614
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/color/001.png'] 0.5776897072792053
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/color/002.png'] 0.5730525255203247
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/color/003.png'] 0.6423528790473938
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/color/004.png'] 0.6055372953414917
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/color/005.png'] 0.556984007358551
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/color/006.png'] 0.61600661277771
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/color/007.png'] 0.6424485445022583
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/combined/000.png'] 0.6014871001243591
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/combined/001.png'] 0.6470078825950623
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/combined/002.png'] 0.5928909778594971
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/combined/003.png'] 0.6070119142532349
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/combined/004.png'] 0.6208680868148804
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/combined/005.png'] 0.5966602563858032
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/combined/006.png'] 0.6104257702827454
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/combined/007.png'] 0.6564929485321045
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/combined/008.png'] 0.595417857170105
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/combined/009.png'] 0.5980516672134399
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/combined/010.png'] 0.5985134840011597
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/good/000.png'] 0.3027072846889496
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/good/001.png'] 0.36542338132858276
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/good/002.png'] 0.26231664419174194
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/good/003.png'] 0.25099846720695496
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/good/004.png'] 0.2746795415878296
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/good/005.png'] 0.2603314518928528
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/good/006.png'] 0.2623756229877472
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/good/007.png'] 0.33949604630470276
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/good/008.png'] 0.3549908399581909
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/good/009.png'] 0.38444656133651733
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/good/010.png'] 0.3664456009864807
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/good/011.png'] 0.4173009395599365
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/good/012.png'] 0.3640679717063904
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/good/013.png'] 0.3694932162761688
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/good/014.png'] 0.32371124625205994
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/good/015.png'] 0.35355085134506226
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/good/016.png'] 0.3864894509315491
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/good/017.png'] 0.3385484218597412
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/good/018.png'] 0.33409643173217773
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/hole/000.png'] 0.6430995464324951
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/hole/001.png'] 0.6439566612243652
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/hole/002.png'] 0.5992935299873352
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/hole/003.png'] 0.5938625931739807
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/hole/004.png'] 0.5226316452026367
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/hole/005.png'] 0.5454128980636597
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/hole/006.png'] 0.5242477655410767
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/hole/007.png'] 0.6219546794891357
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/hole/008.png'] 0.5685788989067078
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/hole/009.png'] 0.6307931542396545
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/liquid/000.png'] 0.6058385968208313
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/liquid/001.png'] 0.5984423160552979
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/liquid/002.png'] 0.6173673868179321
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/liquid/003.png'] 0.6069397926330566
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/liquid/004.png'] 0.605685830116272
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/liquid/005.png'] 0.590191662311554
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/liquid/006.png'] 0.5823678374290466
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/liquid/007.png'] 0.6328040957450867
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/liquid/008.png'] 0.6488320231437683
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/liquid/009.png'] 0.6518033742904663
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/scratch/000.png'] 0.5603896975517273
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/scratch/001.png'] 0.375690758228302
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/scratch/002.png'] 0.6222836971282959
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/scratch/003.png'] 0.5322773456573486
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/scratch/004.png'] 0.5856703519821167
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/scratch/005.png'] 0.621159553527832
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/scratch/006.png'] 0.4525863528251648
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/scratch/007.png'] 0.6549279689788818
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/scratch/008.png'] 0.6051763892173767
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/scratch/009.png'] 0.584988534450531
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/scratch/010.png'] 0.5669573545455933
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/scratch/011.png'] 0.5558028221130371
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/scratch/012.png'] 0.5930697917938232
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/scratch/013.png'] 0.5100786089897156
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/scratch/014.png'] 0.5623092651367188
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/scratch/015.png'] 0.5866101980209351
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/scratch/016.png'] 0.5312096476554871
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/scratch/017.png'] 0.5151100158691406
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/scratch/018.png'] 0.5272239446640015
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/scratch/019.png'] 0.5502656698226929
+['/mnt/dsc3032-gaya-shared/group6/datasets/MVTec_AD/wood/test/scratch/020.png'] 0.5324868559837341
+26-06-02 17:31:53.584 - INFO: 
+| category   |   K-shots |   F1-Max(image) |   AUROC(image) |   F1-Max(pixel) |   AUROC(pixel) |
+|:-----------|----------:|----------------:|---------------:|----------------:|---------------:|
+| wood       |         2 |           99.16 |          99.74 |           70.27 |           96.9 |

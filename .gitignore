@@ -1,4 +1,50 @@
-__pycache__
-datasets
-checkpoint/*
-memory_bank/*
+# ── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ── Model weights & feature files ───────────────────────────────────────────
+*.pt
+*.pth
+*.pkl
+*.bin
+*.onnx
+*.safetensors
+
+# ── Archives ─────────────────────────────────────────────────────────────────
+*.tar
+*.tar.gz
+*.tar.xz
+*.tgz
+*.zip
+*.xz
+*.gz
+
+# ── Datasets (large, set up manually — see README) ──────────────────────────
+datasets/
+
+# ── Memory bank (NFS symlink → /mnt/dsc3032-gaya-shared/group6/memory_bank) ─
+memory_bank
+
+# ── Model checkpoints ────────────────────────────────────────────────────────
+checkpoint/
+
+
+# ── Presentation materials ───────────────────────────────────────────────────
+class_pdf/
+
+# ── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── IDE ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Environment / packaging ──────────────────────────────────────────────────
+.env
+*.egg-info/
+dist/
+build/

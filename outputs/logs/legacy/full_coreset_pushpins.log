@@ -1,570 +1,0 @@
-OpenVINO is not installed. Please install OpenVINO to use OpenVINOInferencer.
-/home/gaya6/LogSAD/dinov2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
-  warnings.warn("xFormers is not available (SwiGLU)")
-/home/gaya6/LogSAD/dinov2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
-  warnings.warn("xFormers is not available (Attention)")
-/home/gaya6/LogSAD/dinov2/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
-  warnings.warn("xFormers is not available (Block)")
-torch.Size([372, 3, 448, 448])
-running k-means on cuda..
-[running kmeans]: 0it [00:00, ?it/s][running kmeans]: 0it [00:00, ?it/s, center_shift=40.917061, iteration=1, tol=0.000100][running kmeans]: 1it [00:00,  1.44it/s, center_shift=40.917061, iteration=1, tol=0.000100][running kmeans]: 1it [00:01,  1.44it/s, center_shift=1.283204, iteration=2, tol=0.000100] [running kmeans]: 2it [00:01,  1.51it/s, center_shift=1.283204, iteration=2, tol=0.000100][running kmeans]: 2it [00:01,  1.51it/s, center_shift=1.002510, iteration=3, tol=0.000100][running kmeans]: 3it [00:01,  1.55it/s, center_shift=1.002510, iteration=3, tol=0.000100][running kmeans]: 3it [00:02,  1.55it/s, center_shift=0.161389, iteration=4, tol=0.000100][running kmeans]: 4it [00:02,  1.56it/s, center_shift=0.161389, iteration=4, tol=0.000100][running kmeans]: 4it [00:03,  1.56it/s, center_shift=0.033475, iteration=5, tol=0.000100][running kmeans]: 5it [00:03,  1.57it/s, center_shift=0.033475, iteration=5, tol=0.000100][running kmeans]: 5it [00:03,  1.57it/s, center_shift=0.026169, iteration=6, tol=0.000100][running kmeans]: 6it [00:03,  1.58it/s, center_shift=0.026169, iteration=6, tol=0.000100][running kmeans]: 6it [00:04,  1.58it/s, center_shift=0.019117, iteration=7, tol=0.000100][running kmeans]: 7it [00:04,  1.58it/s, center_shift=0.019117, iteration=7, tol=0.000100][running kmeans]: 7it [00:05,  1.58it/s, center_shift=0.008346, iteration=8, tol=0.000100][running kmeans]: 8it [00:05,  1.57it/s, center_shift=0.008346, iteration=8, tol=0.000100][running kmeans]: 8it [00:05,  1.57it/s, center_shift=0.002731, iteration=9, tol=0.000100][running kmeans]: 9it [00:05,  1.57it/s, center_shift=0.002731, iteration=9, tol=0.000100][running kmeans]: 9it [00:06,  1.57it/s, center_shift=0.002254, iteration=10, tol=0.000100][running kmeans]: 10it [00:06,  1.58it/s, center_shift=0.002254, iteration=10, tol=0.000100][running kmeans]: 10it [00:07,  1.58it/s, center_shift=0.003348, iteration=11, tol=0.000100][running kmeans]: 11it [00:07,  1.58it/s, center_shift=0.003348, iteration=11, tol=0.000100][running kmeans]: 11it [00:07,  1.58it/s, center_shift=0.005501, iteration=12, tol=0.000100][running kmeans]: 12it [00:07,  1.59it/s, center_shift=0.005501, iteration=12, tol=0.000100][running kmeans]: 12it [00:08,  1.59it/s, center_shift=0.006715, iteration=13, tol=0.000100][running kmeans]: 13it [00:08,  1.59it/s, center_shift=0.006715, iteration=13, tol=0.000100][running kmeans]: 13it [00:08,  1.59it/s, center_shift=0.004255, iteration=14, tol=0.000100][running kmeans]: 14it [00:08,  1.58it/s, center_shift=0.004255, iteration=14, tol=0.000100][running kmeans]: 14it [00:09,  1.58it/s, center_shift=0.002557, iteration=15, tol=0.000100][running kmeans]: 15it [00:09,  1.58it/s, center_shift=0.002557, iteration=15, tol=0.000100][running kmeans]: 15it [00:10,  1.58it/s, center_shift=0.001646, iteration=16, tol=0.000100][running kmeans]: 16it [00:10,  1.58it/s, center_shift=0.001646, iteration=16, tol=0.000100][running kmeans]: 16it [00:10,  1.58it/s, center_shift=0.000756, iteration=17, tol=0.000100][running kmeans]: 17it [00:10,  1.57it/s, center_shift=0.000756, iteration=17, tol=0.000100][running kmeans]: 17it [00:11,  1.57it/s, center_shift=0.000833, iteration=18, tol=0.000100][running kmeans]: 18it [00:11,  1.57it/s, center_shift=0.000833, iteration=18, tol=0.000100][running kmeans]: 18it [00:12,  1.57it/s, center_shift=0.000408, iteration=19, tol=0.000100][running kmeans]: 19it [00:12,  1.57it/s, center_shift=0.000408, iteration=19, tol=0.000100][running kmeans]: 19it [00:12,  1.57it/s, center_shift=0.000392, iteration=20, tol=0.000100][running kmeans]: 20it [00:12,  1.57it/s, center_shift=0.000392, iteration=20, tol=0.000100][running kmeans]: 20it [00:13,  1.57it/s, center_shift=0.000497, iteration=21, tol=0.000100][running kmeans]: 21it [00:13,  1.57it/s, center_shift=0.000497, iteration=21, tol=0.000100][running kmeans]: 21it [00:14,  1.57it/s, center_shift=0.001213, iteration=22, tol=0.000100][running kmeans]: 22it [00:14,  1.58it/s, center_shift=0.001213, iteration=22, tol=0.000100][running kmeans]: 22it [00:14,  1.58it/s, center_shift=0.002665, iteration=23, tol=0.000100][running kmeans]: 23it [00:14,  1.57it/s, center_shift=0.002665, iteration=23, tol=0.000100][running kmeans]: 23it [00:15,  1.57it/s, center_shift=0.007188, iteration=24, tol=0.000100][running kmeans]: 24it [00:15,  1.57it/s, center_shift=0.007188, iteration=24, tol=0.000100][running kmeans]: 24it [00:15,  1.57it/s, center_shift=0.014354, iteration=25, tol=0.000100][running kmeans]: 25it [00:15,  1.57it/s, center_shift=0.014354, iteration=25, tol=0.000100][running kmeans]: 25it [00:16,  1.57it/s, center_shift=0.007906, iteration=26, tol=0.000100][running kmeans]: 26it [00:16,  1.57it/s, center_shift=0.007906, iteration=26, tol=0.000100][running kmeans]: 26it [00:17,  1.57it/s, center_shift=0.005796, iteration=27, tol=0.000100][running kmeans]: 27it [00:17,  1.57it/s, center_shift=0.005796, iteration=27, tol=0.000100][running kmeans]: 27it [00:17,  1.57it/s, center_shift=0.004556, iteration=28, tol=0.000100][running kmeans]: 28it [00:17,  1.57it/s, center_shift=0.004556, iteration=28, tol=0.000100][running kmeans]: 28it [00:18,  1.57it/s, center_shift=0.005117, iteration=29, tol=0.000100][running kmeans]: 29it [00:18,  1.57it/s, center_shift=0.005117, iteration=29, tol=0.000100][running kmeans]: 29it [00:19,  1.57it/s, center_shift=0.003172, iteration=30, tol=0.000100][running kmeans]: 30it [00:19,  1.58it/s, center_shift=0.003172, iteration=30, tol=0.000100][running kmeans]: 30it [00:19,  1.58it/s, center_shift=0.001090, iteration=31, tol=0.000100][running kmeans]: 31it [00:19,  1.57it/s, center_shift=0.001090, iteration=31, tol=0.000100][running kmeans]: 31it [00:20,  1.57it/s, center_shift=0.000242, iteration=32, tol=0.000100][running kmeans]: 32it [00:20,  1.58it/s, center_shift=0.000242, iteration=32, tol=0.000100][running kmeans]: 32it [00:20,  1.58it/s, center_shift=0.000081, iteration=33, tol=0.000100][running kmeans]: 33it [00:20,  1.58it/s, center_shift=0.000081, iteration=33, tol=0.000100][running kmeans]: 33it [00:20,  1.57it/s, center_shift=0.000081, iteration=33, tol=0.000100]
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-predicting on cuda..
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-Selecting Coreset Indices. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
-torch.Size([380928, 4096]) torch.Size([380928, 4096])
-torch.Size([5565, 4096])
