@@ -1,3 +1,6 @@
+# OWN CODE (Group 6): VisA evaluation entry point — not in the original LogSAD repo.
+# Original repo only provides evaluation.py for MVTec LOCO; this file extends support
+# to VisA (12 structural-anomaly categories) to reproduce Table 11 (CVPR 2025).
 """Evaluation script for VisA dataset (structural anomaly detection).
 
 Adapted from evaluation.py (MVTec LOCO) with the following changes:

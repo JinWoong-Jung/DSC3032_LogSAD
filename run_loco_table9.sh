@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+# OWN CODE (Group 6): Full LOCO evaluation runner — not in the original LogSAD repo.
+# Runs all 5 categories × {1/2/4-shot + full-data} and writes results to outputs/MVTec_LOCO/.
+# Reproduces Table 9 of the LogSAD paper (CVPR 2025).
 set -euo pipefail
 
 cd "$(dirname "$0")"

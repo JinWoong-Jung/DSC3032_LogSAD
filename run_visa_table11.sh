@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# OWN CODE (Group 6): VisA evaluation runner — not in the original LogSAD repo.
 # run_visa_table.sh — LogSAD reimplementation on VisA (few-shot: 1/2/4-shot)
 # Results saved to outputs/VisA/  (mirrors outputs/MVTec_LOCO/ structure)
 # Memory bank .pt files (if any) are stored via the symlink:

@@ -1,3 +1,6 @@
+# OWN CODE (Group 6): MVTec AD evaluation entry point — not in the original LogSAD repo.
+# Original repo only provides evaluation.py for MVTec LOCO; this file extends support
+# to MVTec AD (15 structural-anomaly categories) to reproduce Table 10 (CVPR 2025).
 """Evaluation script for MVTec AD dataset (structural anomaly detection).
 
 Adapted from evaluation_VisA.py with the following changes:

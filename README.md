@@ -44,63 +44,50 @@ wget -P checkpoint/ https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b
 
 ## Dataset Setup
 
-### MVTec LOCO (primary benchmark)
+Place all datasets under the `datasets/` directory:
 
 ```
-datasets/MVTec_LOCO/          # local disk
-├── breakfast_box/
-├── juice_bottle/
-├── pushpins/
-├── screw_bag/
-└── splicing_connectors/
+datasets/
+├── MVTec_LOCO/
+│   ├── breakfast_box/
+│   ├── juice_bottle/
+│   ├── pushpins/
+│   ├── screw_bag/
+│   └── splicing_connectors/
+├── VisA/
+│   ├── candle/
+│   ├── capsules/
+│   ├── ...
+│   └── split_csv/
+└── MVTec_AD/
+    ├── bottle/
+    ├── cable/
+    └── ...
 ```
 
-### VisA (supplementary)
+### MVTec LOCO
+
+Download from the [MVTec LOCO website](https://www.mvtec.com/company/research/datasets/mvtec-loco).
+
+### VisA
 
 ```bash
-# Download & extract to shared storage
-tar -xf VisA_20220922.tar -C /mnt/dsc3032-gaya-shared/group6/datasets/VisA/
-```
-
-The `datasets/VisA` entry is a symlink to shared storage:
-
-```
-datasets/VisA -> /mnt/dsc3032-gaya-shared/group6/datasets/VisA/
+# Download and extract
+wget -O VisA_20220922.tar "https://amazon.com/.../VisA_20220922.tar"
+tar -xf VisA_20220922.tar -C datasets/VisA/
+rm VisA_20220922.tar
 ```
 
 `visa_pytorch/` (anomalib-compatible split) is created automatically on first run.
 
-### MVTec AD (optional)
+### MVTec AD
 
 ```bash
-cd /mnt/dsc3032-gaya-shared/group6/datasets
-wget -O mvtec_anomaly_detection.tar.xz \
-  "https://www.mydrive.ch/shares/150996/.../mvtec_anomaly_detection.tar.xz"
-mkdir -p MVTec_AD && tar -xf mvtec_anomaly_detection.tar.xz -C MVTec_AD/
-rm mvtec_anomaly_detection.tar.xz
-```
-
----
-
-## Storage Layout
-
-Large files are stored on shared NFS to avoid filling the local `/home` partition:
-
-```
-/mnt/dsc3032-gaya-shared/group6/
-├── datasets/
-│   └── VisA/              # VisA raw images + visa_pytorch split
-└── memory_bank/           # Pre-computed full-data coreset .pt files
-    ├── mem_patch_feature_clip_*.pt      (~5–6 GB each)
-    ├── mem_patch_feature_dinov2_*.pt    (~5–6 GB each)
-    └── mem_instance_features_*.pt
-```
-
-Symlinks in the project root point to these locations:
-
-```
-LogSAD/memory_bank  ->  /mnt/dsc3032-gaya-shared/group6/memory_bank/
-LogSAD/datasets/VisA -> /mnt/dsc3032-gaya-shared/group6/datasets/VisA/
+wget -O datasets/mvtec_anomaly_detection.tar.xz \
+  "https://www.mydrive.ch/shares/150996/b52ecdcbf521176e9db9c731f2304b27/download/420938113-1629960298/mvtec_anomaly_detection.tar.xz"
+mkdir -p datasets/MVTec_AD
+tar -xf datasets/mvtec_anomaly_detection.tar.xz -C datasets/MVTec_AD/
+rm datasets/mvtec_anomaly_detection.tar.xz
 ```
 
 ---
@@ -179,32 +166,66 @@ python evaluation_VisA.py \
 
 ---
 
+### MVTec AD — Full Reimplementation (Table 10)
+
+Runs all 15 categories × {1-shot, 2-shot, 4-shot}. Results saved to `outputs/MVTec_AD/`.
+
+```bash
+bash run_mvtec_table10.sh
+```
+
+Categories: `bottle` · `cable` · `capsule` · `carpet` · `grid` · `hazelnut` · `leather` · `metal_nut` · `pill` · `screw` · `tile` · `toothbrush` · `transistor` · `wood` · `zipper`
+
+### MVTec AD — Single Category
+
+```bash
+python evaluation_MVTec.py \
+  --module_path model_ensemble_few_shot_visa \
+  --category bottle \
+  --dataset_path datasets/MVTec_AD \
+  --k_shot 4
+```
+
+---
+
 ## Demo Notebooks
 
 Interactive demo for `juice_bottle`, 4-shot protocol. Run from `demo/` with the `logsad` conda environment.
 
 ```
 demo/
-├── 01_setup_and_results.ipynb   # Model loading, MoT proposals, memory bank, results vs paper
-└── 02_live_inference.ipynb      # Live inference + anomaly map visualisation
+├── Group6-fulltraining.ipynb   # Setup & evaluation (training-free equivalent of "full-training"):
+│                               # frozen model loading, MoT proposals, memory bank, results vs paper
+└── Group6-demo.ipynb           # Live inference + anomaly-map visualisation
 ```
+
+> **Naming.** LogSAD is **training-free (Category D)** — there is no fine-tuning step, so
+> `Group6-fulltraining.ipynb` is the training-free equivalent (setup + reproduced evaluation).
+> Both notebooks ship with their cell outputs already populated as a fallback.
+
+**Demo environment (presentation, room 31709):**
+
+- **Primary** — VS Code **Remote-SSH from the classroom machine into the GPU server `aicoss220`**, then open the notebooks. Live inference needs a GPU, which the classroom machine lacks.
+- **Secondary** — Google Colab (GPU runtime); `Group6-demo.ipynb` has a Colab bootstrap cell. Pre-warm the model load and pass phone auth before presenting.
+- **Fallback** — a screen recording of the live run; the saved cell outputs also stand in if the kernel disconnects.
 
 **Recommended presentation workflow:**
 
 ```
 Before presentation
-├── Run 01 entirely (pre-computed outputs, ~3 min)
-└── Run 02 cells 1–3 (model load + 4-shot setup, ~3 min)
+├── Run Group6-fulltraining.ipynb entirely (pre-computed outputs, ~3 min)
+└── Run Group6-demo.ipynb sections 0–3 (model load + 4-shot memory bank, ~3–5 min) — keep kernel warm
 
 During presentation (~1 min live)
-└── Run 02 cells 4–7 (image selection → inference → visualisation)
+└── Run Group6-demo.ipynb sections 4–7 (image selection → inference → visualisation)
+    (marked "▶ LIVE FROM HERE" in the notebook)
 ```
 
 To open on the GPU server via VS Code:
 
 ```bash
 cd /home/gaya6/LogSAD/demo
-jupyter notebook   # or open .ipynb directly in VS Code
+jupyter notebook   # or open .ipynb directly in VS Code (Remote-SSH)
 ```
 
 ---
@@ -223,17 +244,19 @@ LogSAD/
 ├── run_visa_table.sh                # One-command full VisA reimplementation
 ├── prompt_ensemble.py               # CLIP text prompt utilities
 ├── datasets/
-│   ├── MVTec_LOCO/                  # Local
-│   └── VisA -> (NFS symlink)
-├── memory_bank/ -> (NFS symlink)    # Pre-computed coreset .pt files
+│   ├── MVTec_LOCO/
+│   ├── VisA/
+│   └── MVTec_AD/
+├── memory_bank/                     # Pre-computed full-data coreset .pt files (~5–6 GB each)
 ├── checkpoint/
 │   └── sam_vit_h_4b8939.pth
 ├── outputs/
 │   ├── MVTec_LOCO/results.txt
-│   └── VisA/results.txt
+│   ├── VisA/results.txt
+│   └── MVTec_AD/results.txt
 └── demo/
-    ├── 01_setup_and_results.ipynb
-    └── 02_live_inference.ipynb
+    ├── Group6-fulltraining.ipynb   # setup + reproduced evaluation (training-free)
+    └── Group6-demo.ipynb           # live inference + visualisation
 ```
 
 ---

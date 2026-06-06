@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# OWN CODE (Group 6): MVTec AD evaluation runner — not in the original LogSAD repo.
 # run_mvtec_table10.sh — LogSAD reimplementation on MVTec AD (few-shot: 1/2/4-shot)
 # Reproduces Table 10 of the LogSAD paper (CVPR 2025)
 # Results saved to outputs/MVTec_AD/  (mirrors outputs/MVTec_LOCO/ structure)

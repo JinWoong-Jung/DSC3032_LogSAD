@@ -1,3 +1,7 @@
+# OWN CODE (Group 6): VisA model variant — not in the original LogSAD repo.
+# Derived from model_ensemble_few_shot.py (original author: zhang0jhon).
+# Key changes: removed LOCO-specific logical detectors (histogram / composition matching);
+# structural-only scoring avoids sigmoid saturation on VisA's low-variance k-shot distributions.
 """Few-shot anomaly detection model for VisA (structural anomalies only).
 
 VisA contains only structural anomalies (scratches, dents, colour spots, missing parts),
