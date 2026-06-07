@@ -1,10 +1,26 @@
-# LogSAD — Reimplementation (Group 6)
+# LogSAD: Reimplementation & Demo (Group 6)
+
+<p align="center">
+  <p align="center">
+    <a>Jinwoong Jung</a>&emsp;
+    <a>Seungtaek Lee</a>&emsp;
+    <a>Jeongsoh Hur</a>&emsp;
+    <a>Fatima Tuz Zahra</a>
+  </p>
+  <p align="center">
+    <i>Sungkyunkwan University</i><br>
+  </p>
+   <p align="center">
+    <i>Deep Learning 1: Foundations and Image Processing(DSC3032)</i><br>
+  </p>
+</p>
+
+## Project Overview
 
 <div>
   <a href="https://arxiv.org/abs/2503.18325"><img src="https://img.shields.io/static/v1?label=Arxiv&message=LogSAD&color=red&logo=arxiv"></a> &ensp;
   <a href="https://github.com/zhang0jhon/LogSAD.git"><img src="https://img.shields.io/static/v1?label=Original%20Code&message=GitHub&color=black&logo=github"></a>
 </div>
-
 
 This repository is the reimplementation of 
 ### LogSAD: Towards Training-free Anomaly Detection with Vision and Language Foundation Models.
