@@ -140,19 +140,23 @@ demo/
     │       ├── 001.png
     │       ├── 002.png
     │       └── 003.png
-    └── test/
-        ├── good/
-        │   ├── 000.png
-        │   ├── 001.png
-        │   └── 002.png
-        ├── logical_anomalies/
-        │   ├── 000.png
-        │   ├── 001.png
-        │   └── 002.png
-        └── structural_anomalies/
-            ├── 000.png
-            ├── 001.png
-            └── 002.png
+    ├── test/
+    │   ├── good/
+    │   │   ├── 000.png
+    │   │   ├── 001.png
+    │   │   └── 002.png
+    │   ├── logical_anomalies/
+    │   │   ├── 000.png
+    │   │   ├── 001.png
+    │   │   └── 002.png
+    │   └── structural_anomalies/
+    │       ├── 000.png
+    │       ├── 001.png
+    │       └── 002.png
+    └── generated/
+        ├── generated_001.png
+        ├── generated_002.png
+        └── generated_003.png
 ```
 
 `Group6-demo.ipynb` is the main live demo notebook. It uses the `juice_bottle` category with a 4-shot, training-free setup:
@@ -161,12 +165,13 @@ demo/
 - `demo/images/test/good/`: normal test images
 - `demo/images/test/logical_anomalies/`: logical anomaly examples
 - `demo/images/test/structural_anomalies/`: structural anomaly examples
+- `demo/images/generated/`: GPT-generated synthetic juice bottle images used to test the model beyond the MVTec dataset
 
 Recommended demo flow:
 
 1. Run the setup cells first to load the model and build the memory bank.
 2. Run the live section to select images, run inference, and show visual results.
-3. Structural anomalies are shown with heatmaps; logical anomalies are shown with detector score diagnostics.
+3. All results are shown with anomaly heatmap overlays and per-detector score breakdowns.
 
 Open the notebook from the project folder:
 
@@ -204,7 +209,8 @@ LogSAD/
     ├── statistic_scores_model_ensemble_few_shot_val.pkl
     └── images/
         ├── shot/
-        └── test/
+        ├── test/
+        └── generated/
 ```
 
 ---
