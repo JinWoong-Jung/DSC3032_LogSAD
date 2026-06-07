@@ -1,11 +1,15 @@
 # LogSAD — Reimplementation (Group 6)
 
-Reimplementation of **LogSAD: Towards Training-free Anomaly Detection with Vision and Language Foundation Models**.
+<div>
+  <a href="https://arxiv.org/abs/2503.18325"><img src="https://img.shields.io/static/v1?label=Arxiv&message=LogSAD&color=red&logo=arxiv"></a> &ensp;
+  <a href="https://github.com/zhang0jhon/LogSAD.git"><img src="https://img.shields.io/static/v1?label=Original%20Code&message=GitHub&color=black&logo=github"></a>
+</div>
+
+
+This repository is the reimplementation of 
+### LogSAD: Towards Training-free Anomaly Detection with Vision and Language Foundation Models.
 
 This repository is organized for reproducing the project results on three datasets and for running a short `juice_bottle` demo.
-
-- Original paper: https://arxiv.org/pdf/2503.18325
-- Original code: [zhang0jhon/LogSAD.git](https://github.com/zhang0jhon/LogSAD.git)
 
 ---
 
