@@ -4,9 +4,19 @@ Reimplementation of **LogSAD: Towards Training-free Anomaly Detection with Visio
 
 This repository is organized for reproducing the project results on three datasets and for running a short `juice_bottle` demo.
 
+- Original paper: https://arxiv.org/pdf/2503.18325
+- Original code: [zhang0jhon/LogSAD.git](https://github.com/zhang0jhon/LogSAD.git)
+
 ---
 
 ## 1. Environment Setup
+
+Clone this repository and move into the project folder:
+
+```bash
+git clone https://github.com/JinWoong-Jung/DSC3032_LogSAD.git LogSAD
+cd LogSAD
+```
 
 Create and activate a conda environment:
 
@@ -47,6 +57,12 @@ datasets/
 └── MVTec_AD/
 ```
 
+Dataset links:
+
+- MVTec LOCO: https://www.mvtec.com/research-teaching/datasets/mvtec-loco-ad
+- VisA: [amazon-science/spot-diff.git](https://github.com/amazon-science/spot-diff.git)
+- MVTec AD: https://www.mvtec.com/research-teaching/datasets/mvtec-ad
+
 The evaluation scripts assume the dataset folders are already prepared in this structure.
 
 ---
@@ -56,7 +72,7 @@ The evaluation scripts assume the dataset folders are already prepared in this s
 Run from the repository root:
 
 ```bash
-cd /home/gaya6/LogSAD
+cd LogSAD
 conda activate logsad
 ```
 
@@ -66,22 +82,10 @@ conda activate logsad
 bash run_loco_table9.sh
 ```
 
-Results are saved under:
-
-```text
-outputs/MVTec_LOCO/
-```
-
 ### VisA
 
 ```bash
 bash run_visa_table11.sh
-```
-
-Results are saved under:
-
-```text
-outputs/VisA/
 ```
 
 ### MVTec AD
@@ -93,6 +97,8 @@ bash run_ad_table10.sh
 Results are saved under:
 
 ```text
+outputs/MVTec_LOCO/
+outputs/VisA/
 outputs/MVTec_AD/
 ```
 
@@ -105,7 +111,28 @@ The demo notebooks are in `demo/`.
 ```text
 demo/
 ├── Group6-fulltraining.ipynb
-└── Group6-demo.ipynb
+├── Group6-demo.ipynb
+├── statistic_scores_model_ensemble_few_shot_val.pkl
+└── images/
+    ├── shot/
+    │   └── good/
+    │       ├── 000.png
+    │       ├── 001.png
+    │       ├── 002.png
+    │       └── 003.png
+    └── test/
+        ├── good/
+        │   ├── 000.png
+        │   ├── 001.png
+        │   └── 002.png
+        ├── logical_anomalies/
+        │   ├── 000.png
+        │   ├── 001.png
+        │   └── 002.png
+        └── structural_anomalies/
+            ├── 000.png
+            ├── 001.png
+            └── 002.png
 ```
 
 `Group6-demo.ipynb` is the main live demo notebook. It uses the `juice_bottle` category with a 4-shot, training-free setup:
@@ -124,7 +151,7 @@ Recommended demo flow:
 Open the notebook from the project folder:
 
 ```bash
-cd /home/gaya6/LogSAD
+cd LogSAD
 conda activate logsad
 jupyter notebook demo/Group6-demo.ipynb
 ```
@@ -145,9 +172,19 @@ LogSAD/
 ├── run_visa_table11.sh
 ├── run_ad_table10.sh
 ├── datasets/
+│   ├── MVTec_LOCO/
+│   ├── VisA/
+│   └── MVTec_AD/
 ├── checkpoint/
+│   └── sam_vit_h_4b8939.pth
 ├── outputs/
 └── demo/
+    ├── Group6-fulltraining.ipynb
+    ├── Group6-demo.ipynb
+    ├── statistic_scores_model_ensemble_few_shot_val.pkl
+    └── images/
+        ├── shot/
+        └── test/
 ```
 
 ---
