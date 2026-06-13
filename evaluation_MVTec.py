@@ -38,7 +38,7 @@ def parse_args():
     parser.add_argument("--weights_path", type=str, default=None)
     parser.add_argument(
         "--dataset_path",
-        default="/home/gaya6/LogSAD/datasets/MVTec_AD",
+        default="datasets/MVTec_AD",
         type=str,
         help="Root of MVTec AD (directory containing bottle/, cable/, ... subfolders)",
     )

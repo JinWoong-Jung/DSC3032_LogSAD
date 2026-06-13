@@ -31,7 +31,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--module_path", type=str, required=True)
     parser.add_argument("--class_name", default='MyModel', type=str, required=False)
     parser.add_argument("--weights_path", type=str, required=False)
-    parser.add_argument("--dataset_path", default='/home/bhu/Project/datasets/mvtec_loco_anomaly_detection/', type=str, required=False)
+    parser.add_argument("--dataset_path", default="datasets/MVTec_LOCO", type=str, required=False)
     parser.add_argument("--category", type=str, required=True)
     parser.add_argument("--k_shot", default=DEFAULT_K_SHOT, type=int, required=False)
     parser.add_argument("--viz", action='store_true', default=False)

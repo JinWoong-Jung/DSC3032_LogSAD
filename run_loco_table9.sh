@@ -5,8 +5,9 @@
 set -euo pipefail
 
 cd "$(dirname "$0")"
+REPO_ROOT="$(pwd)"
 
-DATASET_PATH="${DATASET_PATH:-/home/gaya6/LogSAD/datasets/MVTec_LOCO}"
+DATASET_PATH="${DATASET_PATH:-${REPO_ROOT}/datasets/MVTec_LOCO}"
 CUDA_VISIBLE_DEVICES="${CUDA_VISIBLE_DEVICES:-1}"
 export CUDA_VISIBLE_DEVICES
 DEFAULT_PYTHON="/home/gaya6/miniconda3/envs/logsad/bin/python"
@@ -17,7 +18,7 @@ if [[ -z "${PYTHON_BIN:-}" ]]; then
     PYTHON_BIN="python"
   fi
 fi
-OUTPUT_DIR="${OUTPUT_DIR:-outputs}"
+OUTPUT_DIR="${OUTPUT_DIR:-outputs/MVTec_LOCO}"
 LOG_ROOT="${LOG_ROOT:-${OUTPUT_DIR}/logs}"
 RESULT_FILE="${RESULT_FILE:-${OUTPUT_DIR}/results.txt}"
 

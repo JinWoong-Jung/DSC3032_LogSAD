@@ -1,0 +1,7 @@
+Table 9 subset. Image-level F1-max and AUROC results on MVTec LOCO, 4-shot protocol only.
+
+| Protocol | Breakfast Box |       | Juice Bottle |       | Pushpins |       | Screw Bag |       | Splicing Connectors |       | Average |       |
+|----------|---------------|-------|--------------|-------|----------|-------|-----------|-------|---------------------|-------|---------|-------|
+|          | F1-max        | AUROC | F1-max       | AUROC | F1-max   | AUROC | F1-max    | AUROC | F1-max              | AUROC | F1-max  | AUROC |
+|----------|---------------|-------|--------------|-------|----------|-------|-----------|-------|---------------------|-------|---------|-------|
+| 4-shot   | 89.9          | 94.4  | 88.2         | 84.3  | 81.4     | 82.5  | 83.0      | 81.3  | 84.7                | 88.6  | 85.4    | 86.2  |

@@ -1,0 +1,880 @@
+/home/gaya6/LogSAD/dinov2/dinov2/layers/swiglu_ffn.py:43: UserWarning: xFormers is available (SwiGLU)
+  warnings.warn("xFormers is available (SwiGLU)")
+/home/gaya6/LogSAD/dinov2/dinov2/layers/attention.py:27: UserWarning: xFormers is available (Attention)
+  warnings.warn("xFormers is available (Attention)")
+/home/gaya6/LogSAD/dinov2/dinov2/layers/block.py:33: UserWarning: xFormers is available (Block)
+  warnings.warn("xFormers is available (Block)")
+running k-means on cuda..
+
+[running kmeans]: 0it [00:00, ?it/s]
+[running kmeans]: 0it [00:00, ?it/s, center_shift=38.605957, iteration=1, tol=0.000100]
+[running kmeans]: 1it [00:00,  1.38it/s, center_shift=38.605957, iteration=1, tol=0.000100]
+[running kmeans]: 1it [00:01,  1.38it/s, center_shift=1.226548, iteration=2, tol=0.000100] 
+[running kmeans]: 2it [00:01,  1.43it/s, center_shift=1.226548, iteration=2, tol=0.000100]
+[running kmeans]: 2it [00:02,  1.43it/s, center_shift=0.856524, iteration=3, tol=0.000100]
+[running kmeans]: 3it [00:02,  1.44it/s, center_shift=0.856524, iteration=3, tol=0.000100]
+[running kmeans]: 3it [00:02,  1.44it/s, center_shift=0.190141, iteration=4, tol=0.000100]
+[running kmeans]: 4it [00:02,  1.45it/s, center_shift=0.190141, iteration=4, tol=0.000100]
+[running kmeans]: 4it [00:03,  1.45it/s, center_shift=0.083451, iteration=5, tol=0.000100]
+[running kmeans]: 5it [00:03,  1.46it/s, center_shift=0.083451, iteration=5, tol=0.000100]
+[running kmeans]: 5it [00:04,  1.46it/s, center_shift=0.160484, iteration=6, tol=0.000100]
+[running kmeans]: 6it [00:04,  1.46it/s, center_shift=0.160484, iteration=6, tol=0.000100]
+[running kmeans]: 6it [00:04,  1.46it/s, center_shift=0.353789, iteration=7, tol=0.000100]
+[running kmeans]: 7it [00:04,  1.46it/s, center_shift=0.353789, iteration=7, tol=0.000100]
+[running kmeans]: 7it [00:05,  1.46it/s, center_shift=0.159094, iteration=8, tol=0.000100]
+[running kmeans]: 8it [00:05,  1.47it/s, center_shift=0.159094, iteration=8, tol=0.000100]
+[running kmeans]: 8it [00:06,  1.47it/s, center_shift=0.116627, iteration=9, tol=0.000100]
+[running kmeans]: 9it [00:06,  1.47it/s, center_shift=0.116627, iteration=9, tol=0.000100]
+[running kmeans]: 9it [00:06,  1.47it/s, center_shift=0.117364, iteration=10, tol=0.000100]
+[running kmeans]: 10it [00:06,  1.48it/s, center_shift=0.117364, iteration=10, tol=0.000100]
+[running kmeans]: 10it [00:07,  1.48it/s, center_shift=0.045452, iteration=11, tol=0.000100]
+[running kmeans]: 11it [00:07,  1.46it/s, center_shift=0.045452, iteration=11, tol=0.000100]
+[running kmeans]: 11it [00:08,  1.46it/s, center_shift=0.008132, iteration=12, tol=0.000100]
+[running kmeans]: 12it [00:08,  1.47it/s, center_shift=0.008132, iteration=12, tol=0.000100]
+[running kmeans]: 12it [00:08,  1.47it/s, center_shift=0.005652, iteration=13, tol=0.000100]
+[running kmeans]: 13it [00:08,  1.47it/s, center_shift=0.005652, iteration=13, tol=0.000100]
+[running kmeans]: 13it [00:09,  1.47it/s, center_shift=0.006131, iteration=14, tol=0.000100]
+[running kmeans]: 14it [00:09,  1.45it/s, center_shift=0.006131, iteration=14, tol=0.000100]
+[running kmeans]: 14it [00:10,  1.45it/s, center_shift=0.008968, iteration=15, tol=0.000100]
+[running kmeans]: 15it [00:10,  1.47it/s, center_shift=0.008968, iteration=15, tol=0.000100]
+[running kmeans]: 15it [00:10,  1.47it/s, center_shift=0.013906, iteration=16, tol=0.000100]
+[running kmeans]: 16it [00:10,  1.48it/s, center_shift=0.013906, iteration=16, tol=0.000100]
+[running kmeans]: 16it [00:11,  1.48it/s, center_shift=0.016543, iteration=17, tol=0.000100]
+[running kmeans]: 17it [00:11,  1.49it/s, center_shift=0.016543, iteration=17, tol=0.000100]
+[running kmeans]: 17it [00:12,  1.49it/s, center_shift=0.009239, iteration=18, tol=0.000100]
+[running kmeans]: 18it [00:12,  1.50it/s, center_shift=0.009239, iteration=18, tol=0.000100]
+[running kmeans]: 18it [00:12,  1.50it/s, center_shift=0.002564, iteration=19, tol=0.000100]
+[running kmeans]: 19it [00:12,  1.51it/s, center_shift=0.002564, iteration=19, tol=0.000100]
+[running kmeans]: 19it [00:13,  1.51it/s, center_shift=0.000892, iteration=20, tol=0.000100]
+[running kmeans]: 20it [00:13,  1.52it/s, center_shift=0.000892, iteration=20, tol=0.000100]
+[running kmeans]: 20it [00:14,  1.52it/s, center_shift=0.000275, iteration=21, tol=0.000100]
+[running kmeans]: 21it [00:14,  1.52it/s, center_shift=0.000275, iteration=21, tol=0.000100]
+[running kmeans]: 21it [00:14,  1.52it/s, center_shift=0.000114, iteration=22, tol=0.000100]
+[running kmeans]: 22it [00:14,  1.51it/s, center_shift=0.000114, iteration=22, tol=0.000100]
+[running kmeans]: 22it [00:15,  1.51it/s, center_shift=0.000044, iteration=23, tol=0.000100]
+[running kmeans]: 23it [00:15,  1.52it/s, center_shift=0.000044, iteration=23, tol=0.000100]
+[running kmeans]: 23it [00:15,  1.48it/s, center_shift=0.000044, iteration=23, tol=0.000100]
+predicting on cuda..
+predicting on cuda..
+predicting on cuda..
+predicting on cuda..
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/000.png'] tensor(0.7740, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/001.png'] tensor(0.4797, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/002.png'] tensor(0.4936, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 400, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/003.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/004.png'] tensor(0.2179, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/005.png'] tensor(0.2232, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/006.png'] tensor(0.4263, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/007.png'] tensor(0.4563, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/008.png'] tensor(0.5798, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/009.png'] tensor(0.7001, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/010.png'] tensor(0.6437, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/011.png'] tensor(0.6240, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/012.png'] tensor(0.7407, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/013.png'] tensor(0.8554, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/014.png'] tensor(0.5797, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/015.png'] tensor(0.6435, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/016.png'] tensor(0.7900, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/017.png'] tensor(0.9853, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/018.png'] tensor(0.5545, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/019.png'] tensor(0.2905, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/020.png'] tensor(0.6653, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/021.png'] tensor(0.5811, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 398, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/022.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/023.png'] tensor(0.6046, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/024.png'] tensor(0.7666, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/025.png'] tensor(0.5181, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/026.png'] tensor(0.3569, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/027.png'] tensor(0.3394, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/028.png'] tensor(0.5239, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/029.png'] tensor(0.8093, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/030.png'] tensor(0.3710, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/031.png'] tensor(0.6648, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/032.png'] tensor(0.8643, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/033.png'] tensor(0.4678, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/034.png'] tensor(0.4405, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/035.png'] tensor(0.5753, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 399, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/036.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 395, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/037.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/038.png'] tensor(0.1593, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/039.png'] tensor(0.3518, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 340, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/040.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/041.png'] tensor(0.4760, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/042.png'] tensor(0.3110, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/043.png'] tensor(0.8918, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/044.png'] tensor(0.6696, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/045.png'] tensor(0.8073, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 398, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/046.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/047.png'] tensor(0.4217, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/048.png'] tensor(0.3692, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/049.png'] tensor(0.8191, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/050.png'] tensor(0.8546, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/051.png'] tensor(0.2496, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/052.png'] tensor(0.7289, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/053.png'] tensor(0.3578, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/054.png'] tensor(0.8660, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/055.png'] tensor(0.3850, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/056.png'] tensor(0.4978, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/057.png'] tensor(0.7173, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/058.png'] tensor(0.4362, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/059.png'] tensor(0.5345, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 404, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/060.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/061.png'] tensor(0.5610, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/062.png'] tensor(0.6073, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/063.png'] tensor(0.4348, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/064.png'] tensor(0.6771, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/065.png'] tensor(0.5150, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/066.png'] tensor(0.7114, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/067.png'] tensor(0.4319, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/068.png'] tensor(0.8725, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/069.png'] tensor(0.2753, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/070.png'] tensor(0.4572, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/071.png'] tensor(0.4112, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/072.png'] tensor(0.8517, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/073.png'] tensor(0.2852, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 390, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/074.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/075.png'] tensor(0.6996, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/076.png'] tensor(0.6869, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/077.png'] tensor(0.9202, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/078.png'] tensor(0.4813, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/079.png'] tensor(0.4656, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/080.png'] tensor(0.4787, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/081.png'] tensor(0.5562, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/082.png'] tensor(0.7066, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/083.png'] tensor(0.9197, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 340, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/084.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/085.png'] tensor(0.5352, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 392, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/086.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 389, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/087.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/088.png'] tensor(0.3623, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/089.png'] tensor(0.3186, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/090.png'] tensor(0.4192, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/091.png'] tensor(0.7097, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 338, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/092.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/093.png'] tensor(0.6390, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/094.png'] tensor(0.9670, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/095.png'] tensor(0.9019, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/096.png'] tensor(0.3342, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 343, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/097.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/098.png'] tensor(0.3797, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/099.png'] tensor(0.6438, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 408, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/100.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/101.png'] tensor(0.4923, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/102.png'] tensor(0.7653, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/103.png'] tensor(0.3582, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/104.png'] tensor(0.5802, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/105.png'] tensor(0.5891, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/106.png'] tensor(0.5500, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/107.png'] tensor(0.8063, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/108.png'] tensor(0.8019, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/109.png'] tensor(0.7806, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/110.png'] tensor(0.3482, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/111.png'] tensor(0.6101, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/112.png'] tensor(0.6622, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/113.png'] tensor(0.5251, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/114.png'] tensor(0.6718, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/115.png'] tensor(0.5266, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/116.png'] tensor(0.5892, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/117.png'] tensor(0.8637, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/118.png'] tensor(0.3728, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/119.png'] tensor(0.7895, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/120.png'] tensor(0.5436, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/good/121.png'] tensor(0.4608, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 404, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/000.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 404, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/001.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 390, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/002.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 400, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/003.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/004.png'] tensor(0.4369, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/005.png'] tensor(0.8052, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/006.png'] tensor(0.9432, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 392, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/007.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 399, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/008.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 399, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/009.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 421, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/010.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 413, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/011.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 413, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/012.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/013.png'] tensor(0.3066, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 398, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/014.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/015.png'] tensor(0.6876, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/016.png'] tensor(0.8328, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 397, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/017.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 400, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/018.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 388, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/019.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 425, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/020.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 344, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/021.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 340, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/022.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 324, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/023.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/024.png'] tensor(0.6459, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/025.png'] tensor(0.4862, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/026.png'] tensor(0.8619, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/027.png'] tensor(0.5704, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 337, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/028.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/029.png'] tensor(0.5298, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 309, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/030.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/031.png'] tensor(0.4794, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/032.png'] tensor(0.5448, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/033.png'] tensor(0.5240, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 340, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/034.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/035.png'] tensor(0.4351, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/036.png'] tensor(0.5459, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 344, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/037.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 322, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/038.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/039.png'] tensor(0.4551, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 333, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/040.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 426, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/041.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 456, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/042.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 400, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/043.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/044.png'] tensor(0.9638, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/045.png'] tensor(0.8498, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 439, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/046.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 409, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/047.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 399, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/048.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 434, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/049.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 456, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/050.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 396, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/051.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 437, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/052.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 390, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/053.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 397, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/054.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 395, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/055.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 457, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/056.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/057.png'] tensor(0.4728, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 456, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/058.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 431, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/059.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 441, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/060.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 403, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/061.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 455, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/062.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 457, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/063.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 425, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/064.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 285, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/065.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 326, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/066.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 317, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/067.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 334, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/068.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 324, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/069.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 286, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/070.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/071.png'] tensor(0.4564, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 343, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/072.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 276, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/073.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 253, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/074.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 296, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/075.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 280, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/076.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 337, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/077.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 306, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/078.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 285, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/079.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/080.png'] tensor(0.3269, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 280, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/081.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 304, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/082.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 333, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/083.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 314, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/084.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 294, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/085.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 343, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/086.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 323, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/087.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 282, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/088.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 332, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/089.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 331, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/090.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 342, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/091.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/092.png'] tensor(0.8355, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 325, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/093.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 329, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/094.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/095.png'] tensor(0.7094, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 299, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/096.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 318, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/097.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/098.png'] tensor(0.7840, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/099.png'] tensor(0.4143, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 337, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/100.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/101.png'] tensor(0.4976, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 308, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/102.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/103.png'] tensor(0.6661, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 334, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/104.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 323, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/105.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 331, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/106.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 325, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/107.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 337, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/108.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 310, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/109.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 343, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/110.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 307, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/111.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 308, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/112.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/113.png'] tensor(0.9574, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/114.png'] tensor(0.8207, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 399, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/115.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/116.png'] tensor(0.9208, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/117.png'] tensor(0.9022, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/118.png'] tensor(0.8547, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/119.png'] tensor(0.2601, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/120.png'] tensor(0.9008, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/121.png'] tensor(0.7923, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/122.png'] tensor(0.3581, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/123.png'] tensor(0.8966, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/124.png'] tensor(0.6286, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/125.png'] tensor(0.8005, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 397, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/126.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/127.png'] tensor(0.6866, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/128.png'] tensor(0.3634, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 393, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/129.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/130.png'] tensor(0.6771, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/131.png'] tensor(0.6404, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/132.png'] tensor(0.8017, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/133.png'] tensor(0.7960, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/134.png'] tensor(0.7795, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/135.png'] tensor(0.5024, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/logical_anomalies/136.png'] tensor(0.6604, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 391, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/000.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/001.png'] tensor(0.9567, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/002.png'] tensor(0.7916, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 397, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/003.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/004.png'] tensor(0.9941, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/005.png'] tensor(0.8403, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/006.png'] tensor(0.9884, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 394, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/007.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/008.png'] tensor(0.8474, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/009.png'] tensor(0.8331, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/010.png'] tensor(0.4673, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/011.png'] tensor(0.9986, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 343, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/012.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/013.png'] tensor(0.9707, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/014.png'] tensor(0.9387, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 322, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/015.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/016.png'] tensor(0.7475, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/017.png'] tensor(0.4852, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/018.png'] tensor(0.8076, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 343, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/019.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/020.png'] tensor(0.9486, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 389, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/021.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/022.png'] tensor(0.9754, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/023.png'] tensor(0.9237, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/024.png'] tensor(0.6025, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/025.png'] tensor(0.8243, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/026.png'] tensor(0.8294, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/027.png'] tensor(0.8994, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 328, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/028.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/029.png'] tensor(0.9819, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/030.png'] tensor(0.6468, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/031.png'] tensor(0.9040, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 325, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/032.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/033.png'] tensor(0.6199, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/034.png'] tensor(0.9501, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/035.png'] tensor(0.9084, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/036.png'] tensor(0.5720, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/037.png'] tensor(0.4398, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 342, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/038.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/039.png'] tensor(0.9408, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/040.png'] tensor(0.9376, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/041.png'] tensor(0.9959, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/042.png'] tensor(0.9411, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/043.png'] tensor(0.9999, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 344, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/044.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 319, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/045.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/046.png'] tensor(0.9958, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/047.png'] tensor(0.9997, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 341, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/048.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/049.png'] tensor(0.5508, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 389, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/050.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/051.png'] tensor(0.9995, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/052.png'] tensor(0.9988, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/053.png'] tensor(0.9993, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/054.png'] tensor(0.9969, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/055.png'] tensor(0.9997, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/056.png'] tensor(0.9992, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 449, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/057.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/058.png'] tensor(1.0000, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 414, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/059.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 408, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/060.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 466, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/061.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 474, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/062.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 466, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/063.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 402, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/064.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 420, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/065.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 411, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/066.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/067.png'] tensor(0.9568, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 460, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/068.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 446, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/069.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/070.png'] tensor(0.5855, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/071.png'] tensor(0.8498, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/072.png'] tensor(0.9717, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 419, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/073.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 408, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/074.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 467, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/075.png'] tensor(1.)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/076.png'] tensor(0.9857, dtype=torch.float64)
+predicting on cuda..
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/077.png'] tensor(0.9806, dtype=torch.float64)
+predicting on cuda..
+foreground pixel histagram of screw bag: 529, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/078.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 429, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/079.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 439, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/080.png'] tensor(1.)
+predicting on cuda..
+foreground pixel histagram of screw bag: 417, the canonical foreground pixel histogram of screw bag in few shot: 366.0
+['/home/gaya6/LogSAD/datasets/MVTec_LOCO/screw_bag/test/structural_anomalies/081.png'] tensor(1.)
+26-06-13 15:31:52.492 - INFO: 
+| category   |   K-shots |   F1-Max(image) |   AUROC(image) |   F1-Max (logical) |   AUROC (logical) |   F1-Max (structural) |   AUROC (structural) |
+|:-----------|----------:|----------------:|---------------:|-------------------:|------------------:|----------------------:|---------------------:|
+| screw_bag  |         4 |           82.98 |          81.33 |              77.14 |             79.77 |                 78.21 |                83.94 |

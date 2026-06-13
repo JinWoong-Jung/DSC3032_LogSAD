@@ -48,7 +48,7 @@ conda activate logsad
 Install dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu121
 ```
 
 Download the SAM ViT-H checkpoint:

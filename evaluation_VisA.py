@@ -38,7 +38,7 @@ def parse_args():
     parser.add_argument("--weights_path", type=str, default=None)
     parser.add_argument(
         "--dataset_path",
-        default="/home/gaya6/LogSAD/datasets/VisA",
+        default="datasets/VisA",
         type=str,
         help="Root of the VisA dataset (must contain candle/, split_csv/, etc.)",
     )
