@@ -130,8 +130,8 @@ The demo notebooks are in `demo/`.
 
 ```text
 demo/
-├── Group6-fulltraining.ipynb
-├── Group6-demo.ipynb
+├── Group6-full-01.ipynb
+├── Group6-demo-02.ipynb
 ├── statistic_scores_model_ensemble_few_shot_val.pkl
 └── images/
     ├── shot/
@@ -159,7 +159,7 @@ demo/
         └── generated_003.png
 ```
 
-`Group6-demo.ipynb` is the main live demo notebook. It uses the `juice_bottle` category with a 4-shot, training-free setup:
+`Group6-demo-02.ipynb` is the main live demo notebook. It uses the `juice_bottle` category with a 4-shot, training-free setup:
 
 - `demo/images/shot/good/`: normal reference shots used to build the memory bank
 - `demo/images/test/good/`: normal test images
@@ -178,7 +178,7 @@ Open the notebook from the project folder:
 ```bash
 cd LogSAD
 conda activate logsad
-jupyter notebook demo/Group6-demo.ipynb
+jupyter notebook demo/Group6-demo-02.ipynb
 ```
 
 ---
@@ -204,8 +204,8 @@ LogSAD/
 │   └── sam_vit_h_4b8939.pth
 ├── outputs/
 └── demo/
-    ├── Group6-fulltraining.ipynb
-    ├── Group6-demo.ipynb
+    ├── Group6-full-01.ipynb
+    ├── Group6-demo-02.ipynb
     ├── statistic_scores_model_ensemble_few_shot_val.pkl
     └── images/
         ├── shot/
